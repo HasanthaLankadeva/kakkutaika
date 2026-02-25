@@ -1,5 +1,5 @@
 <?php
-define('APP_ENV', 'local'); //dev / live
+define('APP_ENV', 'dev'); //dev / live
 
 if(APP_ENV == 'live'){
   define('DB_DRIVER', 'mysql');
