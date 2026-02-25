@@ -7,7 +7,7 @@ define('CONTACT_EMAIL', 'akishadesilva@gmail.com');
 define('CONTACT_PHONE', '041 313 7305');
 
 // Base URL (IMPORTANT for subfolders)
-define('BASE_URL', 'http://localhost/kakkutaika');
+define('BASE_URL', 'https://dev.kakkutaika.com/');
 
 // Paths
 define('ROOT_PATH', dirname(__DIR__, 2));
