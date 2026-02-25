@@ -1,0 +1,846 @@
+:root{
+    --color__tl-dt__main-strip-background-color: var(--color__tp-tl__main-strip-background-color);
+    
+    --number__tl-dt__strip-row-margin: 0 auto 85px;
+    
+    /* start - arrows */
+    --number__tl-dt__rotator-arrow-border-width: var(--number__tp-tl__rotator-arrow-border-width);
+    --number__tl-dt__rotator-arrow-border-radius: var(--number__tp-tl__rotator-arrow-border-radius);
+    --color__tl-dt__rotator-arrow-border-color: var(--color__tp-tl__rotator-arrow-border-color);
+    --color__tl-dt__rotator-arrow-background-color: var(--color__tp-tl__rotator-arrow-background-color);
+    --color__tl-dt__rotator-arrow-color: var(--color__tp-tl__rotator-arrow-color);
+    /* end - arrows */
+    
+    /* start - pagers */
+    --number__tl-dt__rotator-pager-border-width: var(--number__tp-tl__rotator-pager-border-width);
+    --number__tl-dt__rotator-pager-width: 10px;
+    --number__tl-dt__rotator-pager-height: 10px;
+    --number__tl-dt__rotator-pager-margin: var(--number__tp-tl__rotator-pager-margin);
+    --color__tl-dt__rotator-pager-border-color: var(--color__tp-tl__rotator-pager-border-color);
+    --color__tl-dt__rotator-active-pager-border-color: var(--color__tp-tl__rotator-active-pager-border-color);
+    --color__tl-dt__rotator-active-pager-background-color: var(--color__tp-tl__rotator-active-pager-background-color);
+    /* end - pagers */
+    
+    /* start - close button */
+    --number__tl-dt__close-button-padding: var(--number__tp-tl__close-button-padding);
+    --number__tl-dt__close-button-border-width: var(--number__tp-tl__close-button-border-width);
+    --color__tl-dt__close-button-icon-color: var(--color__tp-tl__close-button-icon-color);
+    --color__tl-dt__close-button-border-color: var(--color__tp-tl__close-button-border-color);
+    --color__tl-dt__close-button-background-color: var(--color__tp-tl__close-button-background-color);
+    /* end - close button  */
+    
+    /* start - typography */
+    --number__tl-dt__heading-one-margin: var(--number__tp-tl__heading-one-margin);
+    --number__tl-dt__heading-two-margin: var(--number__tp-tl__heading-two-margin);
+    --number__tl-dt__heading-three-margin: var(--number__tp-tl__heading-three-margin);
+    --number__tl-dt__heading-four-margin: var(--number__tp-tl__heading-four-margin);
+    --number__tl-dt__heading-five-margin: var(--number__tp-tl__heading-five-margin);
+    --number__tl-dt__heading-six-margin: var(--number__tp-tl__heading-six-margin);
+    /* end - typography */
+    
+    /* start - forms */
+    --number__tl-dt__input-height: var(--number__tp-tl__input-height);
+    --number__tl-dt__textarea-height: var(--number__tp-tl__textarea-height);
+    --number__tl-dt__input-padding: var(--number__tp-tl__input-padding);
+    --number__tl-dt__input-border-width: var(--number__tp-tl__input-border-width);
+    --number__tl-dt__input-border-radius: var(--number__tp-tl__input-border-radius);
+    --color__tl-dt__input-background-color: var(--color__tp-tl__input-background-color);
+    --color__tl-dt__input-border-color: var(--color__tp-tl__input-border-color);
+    --color__tl-dt__input-icon-color: var(--color__tp-tl__input-icon-color);
+    --color__tl-dt__input-on-focus-border-color: var(--color__tp-tl__input-on-focus-border-color);
+    --number__tl-dt__form-main-strip-border-width: var(--number__tp-tl__form-main-strip-border-width);
+    --number__tl-dt__form-main-strip-container-border-width: var(--number__tp-tl__form-main-strip-container-border-width);
+    --number__tl-dt__form-main-strip-intro-content-border-width: var(--number__tp-tl__form-main-strip-intro-content-border-width);
+    --number__tl-dt__form-main-strip-form-wrapper-border-width: var(--number__tp-tl__form-main-strip-form-wrapper-border-width);
+    --number__tl-dt__form-main-strip-form-group-border-width: var(--number__tp-tl__form-main-strip-form-group-border-width);
+    --color__tl-dt__form-main-strip-border-color: var(--color__tp-tl__form-main-strip-border-color);
+    --color__tl-dt__form-main-strip-background-color: var(--color__tp-tl__form-main-strip-background-color);
+    --color__tl-dt__form-main-strip-container-border-color: var(--color__tp-tl__form-main-strip-container-border-color);
+    --color__tl-dt__form-main-strip-container-background-color: var(--color__tp-tl__form-main-strip-container-background-color);
+    --color__tl-dt__form-main-strip-intro-content-border-color: var(--color__tp-tl__form-main-strip-intro-content-border-color);
+    --color__tl-dt__form-main-strip-intro-content-background-color: var(--color__tp-tl__form-main-strip-intro-content-background-color);
+    --color__tl-dt__form-main-strip-form-wrapper-border-color: var(--color__tp-tl__form-main-strip-form-wrapper-border-color);
+    --color__tl-dt__form-main-strip-form-wrapper-background-color: var(--color__tp-tl__form-main-strip-form-wrapper-background-color);
+    --color__tl-dt__form-main-strip-form-group-border-color: var(--color__tp-tl__form-main-strip-form-group-border-color);
+    --color__tl-dt__form-main-strip-form-group-background-color: var(--color__tp-tl__form-main-strip-form-group-background-color);
+    --color__tl-dt__datepicker-border-color: var(--color__tp-tl__datepicker-border-color);
+	--color__tl-dt__datepicker-background-color: var(--color__tp-tl__datepicker-background-color);
+    --color__tl-dt__datepicker-table-body-background-color: var(--color__tp-tl__datepicker-table-body-background-color);
+    --color__tl-dt__datepicker-table-heading-color: var(--color__tp-tl__datepicker-table-heading-color);
+    --number__tl-dt__datepicker-default-padding: var(--number__tp-tl__datepicker-default-padding);
+    --number__tl-dt__datepicker-default-border-radius: var(--number__tp-tl__datepicker-default-border-radius);
+    --number__tl-dt__datepicker-default-border-width: var(--number__tp-tl__datepicker-default-border-width);
+    --color__tl-dt__datepicker-default-border-color: var(--color__tp-tl__datepicker-default-border-color);
+    --color__tl-dt__datepicker-default-color: var(--color__tp-tl__datepicker-default-color);
+    --color__tl-dt__datepicker-default-background-color: var(--color__tp-tl__datepicker-default-background-color);
+    --color__tl-dt__datepicker-disabled-border-color: var(--color__tp-tl__datepicker-disabled-border-color);
+    --color__tl-dt__datepicker-disabled-color: var(--color__tp-tl__datepicker-disabled-color);
+    --color__tl-dt__datepicker-disabled-background-color: var(--color__tp-tl__datepicker-disabled-background-color);
+    --color__tl-dt__datepicker-table-heading-background-color: var(--color__tp-tl__datepicker-table-heading-background-color);
+    --color__tl-dt__datepicker-today-background-color: var(--color__tp-tl__datepicker-today-background-color);
+    --color__tl-dt__datepicker-today-color: var(--color__tp-tl__datepicker-today-color);
+    --color__tl-dt__datepicker-highlight-background-color: var(--color__tp-tl__datepicker-highlight-background-color);
+	--color__tl-dt__datepicker-highlight-color: var(--color__tp-tl__datepicker-highlight-color);
+    /* end - forms */
+    
+    /* start - r2g header - cse */
+    
+        /*
+        * header option one *
+        */
+        --number__tl-dt__header-height: 112px;
+        --number__tl-dt__header-fixed-height: 112px;
+        --number__tl-dt__header-branding-width: 80px;
+        --number__tl-dt__header-branding-height: auto;
+        --number__tl-dt__header-branding-margin: 16px auto;
+        --number__tl-dt__header-fixed-branding-width: 80px;
+        --number__tl-dt__header-fixed-branding-height: auto;
+        --number__tl-dt__header-fixed-branding-margin: 16px auto;
+        --number__tl-dt__header-more-menu-branding-width: 230px;
+        /*
+        * header option one *
+        */
+        
+        /*
+        * header option two *
+        */
+        --number__tl-dt__header-option-two-height: 120px;
+        --number__tl-dt__header-option-two-branding-width: 230px;
+        --number__tl-dt__header-option-two-branding-height: auto;
+        --number__tl-dt__header-option-two-branding-margin: 45px auto 0;
+        /*
+        * header option two *
+        */
+        
+        /*
+        * header option three *
+        */
+        --number__tl-dt__header-option-three-height: auto;
+        --number__tl-dt__header-option-three-branding-width: 230px;
+        --number__tl-dt__header-option-three-branding-height: auto;
+        --number__tl-dt__header-option-three-branding-margin: 20px auto;
+        /*
+        * header option three *
+        */
+        
+        /*
+        * header option four *
+        */
+        --number__tl-dt__header-option-four-height: auto;
+        --number__tl-dt__header-option-four-branding-width: 200px;
+        --number__tl-dt__header-option-four-branding-height: auto;
+        --number__tl-dt__header-option-four-branding-margin: 10px auto;
+        /*
+        * header option four *
+        */
+    
+    --number__tl-dt__header-fixed-shadow-border: var(--number__tp-tl__header-fixed-shadow-border);
+    --number__tl-dt__header-bottom-bar-primary-button-padding: var(--number__tp-tl__header-bottom-bar-primary-button-padding);
+    --number__tl-dt__header-main-navigation-active-border-width: var(--number__tp-tl__header-main-navigation-active-border-width);
+    --number__tl-dt__header-fixed-main-navigation-active-border-width: var(--number__tp-tl__header-fixed-main-navigation-active-border-width);
+    --color__tl-dt__header-background-color: var(--color__tp-tl__header-background-color);
+    --color__tl-dt__header-fixed-background-color: var(--color__tp-tl__header-fixed-background-color);
+    --color__tl-dt__header-fixed-shadow-color: var(--color__tp-tl__header-fixed-shadow-color);
+    --color__tl-dt__header-option-two-top-bar-background-color: var(--color__tp-tl__header-option-two-top-bar-background-color);
+    --color__tl-dt__header-main-navigation-active-border-color: var(--color__tp-tl__header-main-navigation-active-border-color);
+    --color__tl-dt__header-fixed-main-navigation-active-border-color: var(--color__tp-tl__header-fixed-main-navigation-active-border-color);
+    --color__tl-dt__header-main-navigation-drop-down-arrow-color: var(--color__tp-tl__header-main-navigation-drop-down-arrow-color);
+    --color__tl-dt__header-fixed-main-navigation-drop-down-arrow-color: var(--color__tp-tl__header-fixed-main-navigation-drop-down-arrow-color);
+    --color__tl-dt__header-main-navigation-active-drop-down-arrow-color: var(--color__tp-tl__header-main-navigation-active-border-color);
+    --color__tl-dt__header-fixed-main-navigation-active-drop-down-arrow-color: var(--color__tp-tl__header-fixed-main-navigation-active-border-color);
+    --color__tl-dt__header-submenu-background-color: var(--color__tp-tl__header-submenu-background-color);
+    --color__tl-dt__header-fixed-submenu-background-color: var(--color__tp-tl__header-fixed-submenu-background-color);
+    --color__tl-dt__header-submenu-border-color: var(--color__tp-tl__header-submenu-border-color);
+    --color__tl-dt__header-fixed-submenu-border-color: var(--color__tp-tl__header-fixed-submenu-border-color);
+    --color__tl-dt__header-bottom-bar-primary-button-border-color: var(--color__tp-tl__header-bottom-bar-primary-button-border-color);
+    --color__tl-dt__header-bottom-bar-primary-button-background-color: var(--color__tp-tl__header-bottom-bar-primary-button-background-color);
+    --color__tl-dt__header-bottom-bar-primary-button-on-hover-border-color: var(--color__tp-tl__header-bottom-bar-primary-button-on-hover-border-color);
+    --color__tl-dt__header-bottom-bar-primary-button-on-hover-background-color: var(--color__tp-tl__header-bottom-bar-primary-button-on-hover-background-color);
+    --color__tl-dt__header-hamburger-icon-color: var(--color__tp-tl__header-hamburger-icon-color);
+    --color__tl-dt__header-fixed-hamburger-icon-color: var(--color__tp-tl__header-fixed-hamburger-icon-color);
+    --color__tl-dt__header-more-menu-close-icon-color: var(--color__tp-tl__header-more-menu-close-icon-color);
+    --color__tl-dt__header-more-menu-background-color: var(--color__tp-tl__header-more-menu-background-color);
+    --color__tl-dt__header-more-menu-border-color: var(--color__tp-tl__header-more-menu-border-color);
+    --color__tl-dt__header-more-menu-drop-down-arrow-color: var(--color__tp-tl__header-more-menu-drop-down-arrow-color);
+    --color__tl-dt__header-more-menu-active-drop-down-arrow-color: var(--color__tp-tl__header-more-menu-active-drop-down-arrow-color);
+    --color__tl-dt__header-more-menu-scrollbar-dragger-background-color: var(--color__tp-tl__header-more-menu-scrollbar-dragger-background-color);
+    --color__tl-dt__header-more-menu-scrollbar-background-color: var(--color__tp-tl__header-more-menu-scrollbar-background-color);
+    --color__tl-dt__expandable-xlist-arrow-background-color: var(--color__tp-tl__expandable-xlist-arrow-background-color);
+    --color__tl-dt__expandable-xlist-arrow-color: var(--color__tp-tl__expandable-xlist-arrow-color);
+    /* end - r2g header - cse */
+    
+    /* start - r2g main visual - cse */
+    --number__tl-dt__main-visual-margin: var(--number__tp-tl__main-visual-margin);
+    --number__tl-dt__main-visual-slogan-wrapper-border-width: var(--number__tp-tl__main-visual-slogan-wrapper-border-width);
+    --number__tl-dt__main-visual-slogan-wrapper-container-border-width: var(--number__tp-tl__main-visual-slogan-wrapper-container-border-width);
+    --number__tl-dt__main-visual-pager-border-width: var(--number__tp-tl__main-visual-pager-border-width);
+    --number__tl-dt__main-visual-pager-border-radius: var(--number__tp-tl__main-visual-pager-border-radius);
+    --number__tl-dt__main-visual-pager-width: var(--number__tp-tl__main-visual-pager-width);
+    --number__tl-dt__main-visual-pager-height: var(--number__tp-tl__main-visual-pager-height);
+    --number__tl-dt__main-visual-pager-margin: var(--number__tp-tl__main-visual-pager-margin);
+    --number__tl-dt__main-visual-arrow-width: var(--number__tp-tl__main-visual-arrow-width);
+    --number__tl-dt__main-visual-arrow-height: var(--number__tp-tl__main-visual-arrow-height);
+    --number__tl-dt__main-visual-arrow-border-width: var(--number__tp-tl__main-visual-arrow-border-width);
+    --color__tl-dt__main-visual-video-icon-color: var(--color__tp-tl__main-visual-video-icon-color);
+    --color__tl-dt__main-visual-slogan-wrapper-border-color: var(--color__tp-tl__main-visual-slogan-wrapper-border-color);
+    --color__tl-dt__main-visual-slogan-wrapper-background-color: var(--color__tp-tl__main-visual-slogan-wrapper-background-color);
+    --color__tl-dt__main-visual-container-border-color: var(--color__tp-tl__main-visual-container-border-color);
+    --color__tl-dt__main-visual-container-background-color: var(--color__tp-tl__main-visual-container-background-color);
+    --color__tl-dt__main-visual-arrow-color: var(--color__tp-tl__main-visual-arrow-color);
+    --color__tl-dt__main-visual-arrow-border-color: var(--color__tp-tl__main-visual-arrow-border-color);
+    --color__tl-dt__main-visual-arrow-background-color: var(--color__tp-tl__main-visual-arrow-background-color);
+    --color__tl-dt__main-visual-pager-border-color: var(--color__tp-tl__main-visual-pager-border-color);
+    --color__tl-dt__main-visual-pager-background-color: var(--color__tp-tl__main-visual-pager-background-color);
+    --color__tl-dt__main-visual-active-pager-border-color: var(--color__tp-tl__main-visual-active-pager-border-color);
+    --color__tl-dt__main-visual-active-pager-background-color: var(--color__tp-tl__main-visual-active-pager-background-color);
+    /* end - r2g main visual - cse */
+    
+    /* start - r2g breadcrumb - cse */
+    --number__tl-dt__breadcrumb-border-width: var(--number__tp-tl__breadcrumb-border-width);
+    --number__tl-dt__breadcrumb-margin: 0 0 50px;
+    --number__tl-dt__breadcrumb-container-border-width: var(--number__tp-tl__breadcrumb-container-border-width);
+    --number__tl-dt__breadcrumb-breadcrumb-wrapper-border-width: var(--number__tp-tl__breadcrumb-breadcrumb-wrapper-border-width);
+    --color__tl-dt__breadcrumb-border-color: var(--color__tp-tl__breadcrumb-border-color);
+    --color__tl-dt__breadcrumb-background-color: var(--color__tp-tl__breadcrumb-background-color);
+    --color__tl-dt__breadcrumb-container-border-color: var(--color__tp-tl__breadcrumb-container-border-color);
+    --color__tl-dt__breadcrumb-container-background-color: var(--color__tp-tl__breadcrumb-container-background-color);
+    --color__tl-dt__breadcrumb-breadcrumb-wrapper-border-color: var(--color__tp-tl__breadcrumb-breadcrumb-wrapper-border-color);
+    --color__tl-dt__breadcrumb-breadcrumb-wrapper-background-color: var(--color__tp-tl__breadcrumb-breadcrumb-wrapper-background-color);
+    /* end - r2g breadcrumb - cse */
+    
+    /* start - xbox main strip */
+    --number__tl-dt__xbox-main-strip-border-width: var(--number__tp-tl__xbox-main-strip-border-width);
+    --number__tl-dt__xbox-main-strip-container-border-width: var(--number__tp-tl__xbox-main-strip-container-border-width);
+    --number__tl-dt__xbox-main-strip-intro-content-border-width: var(--number__tp-tl__xbox-main-strip-intro-content-border-width);
+    --number__tl-dt__xbox-main-strip-xbox-wrapper-border-width: var(--number__tp-tl__xbox-main-strip-xbox-wrapper-border-width);
+    --number__tl-dt__xbox-main-strip-image-wrapper-border-width: var(--number__tp-tl__xbox-main-strip-image-wrapper-border-width);
+    --number__tl-dt__xbox-main-strip-flex-wrapper-border-width: var(--number__tp-tl__xbox-main-strip-flex-wrapper-border-width);
+    --number__tl-dt__xbox-main-strip-content-wrapper-border-width: var(--number__tp-tl__xbox-main-strip-content-wrapper-border-width);
+    --color__tl-dt__xbox-main-strip-background-color: var(--color__tp-tl__xbox-main-strip-background-color);
+    --color__tl-dt__xbox-main-strip-border-color: var(--color__tp-tl__xbox-main-strip-border-color);
+    --color__tl-dt__xbox-main-strip-container-background-color: var(--color__tp-tl__xbox-main-strip-container-background-color);
+    --color__tl-dt__xbox-main-strip-container-border-color: var(--color__tp-tl__xbox-main-strip-container-border-color);
+    --color__tl-dt__xbox-main-strip-intro-content-background-color: var(--color__tp-tl__xbox-main-strip-intro-content-background-color);
+    --color__tl-dt__xbox-main-strip-intro-content-border-color: var(--color__tp-tl__xbox-main-strip-intro-content-border-color);
+    --color__tl-dt__xbox-main-strip-xbox-wrapper-background-color: var(--color__tp-tl__xbox-main-strip-xbox-wrapper-background-color);
+    --color__tl-dt__xbox-main-strip-xbox-wrapper-border-color: var(--color__tp-tl__xbox-main-strip-xbox-wrapper-border-color);
+    --color__tl-dt__xbox-main-strip-image-wrapper-background-color: var(--color__tp-tl__xbox-main-strip-image-wrapper-background-color);
+    --color__tl-dt__xbox-main-strip-image-wrapper-border-color: var(--color__tp-tl__xbox-main-strip-image-wrapper-border-color);
+    --color__tl-dt__xbox-main-strip-flex-wrapper-background-color: var(--color__tp-tl__xbox-main-strip-flex-wrapper-background-color);
+    --color__tl-dt__xbox-main-strip-flex-wrapper-border-color: var(--color__tp-tl__xbox-main-strip-flex-wrapper-border-color);
+    --color__tl-dt__xbox-main-strip-content-wrapper-background-color: var(--color__tp-tl__xbox-main-strip-content-wrapper-background-color);
+    --color__tl-dt__xbox-main-strip-content-wrapper-border-color: var(--color__tp-tl__xbox-main-strip-content-wrapper-border-color);
+    /* end - xbox main strip */
+    
+    /* start - xbox sub component - cse */
+    --number__tl-dt__xbox-sub-border-width: var(--number__tp-tl__xbox-sub-border-width);
+    --number__tl-dt__xbox-sub-intro-wrapper-border-width: var(--number__tp-tl__xbox-sub-intro-wrapper-border-width);
+    --number__tl-dt__xbox-sub-xbox-wrapper-border-width: var(--number__tp-tl__xbox-sub-xbox-wrapper-border-width);
+    --number__tl-dt__xbox-sub-image-wrapper-border-width: var(--number__tp-tl__xbox-sub-image-wrapper-border-width);
+    --number__tl-dt__xbox-sub-flex-wrapper-border-width: var(--number__tp-tl__xbox-sub-flex-wrapper-border-width);
+    --number__tl-dt__xbox-sub-content-wrapper-border-width: var(--number__tp-tl__xbox-sub-content-wrapper-border-width);
+    --color__tl-dt__xbox-sub-border-color: var(--color__tp-tl__xbox-sub-border-color);
+    --color__tl-dt__xbox-sub-background-color: var(--color__tp-tl__xbox-sub-background-color);
+    --color__tl-dt__xbox-sub-intro-wrapper-border-color: var(--color__tp-tl__xbox-sub-intro-wrapper-border-color);
+    --color__tl-dt__xbox-sub-intro-wrapper-background-color: var(--color__tp-tl__xbox-sub-intro-wrapper-background-color);
+    --color__tl-dt__xbox-sub-xbox-wrapper-border-color: var(--color__tp-tl__xbox-sub-xbox-wrapper-border-color);
+    --color__tl-dt__xbox-sub-xbox-wrapper-background-color: var(--color__tp-tl__xbox-sub-xbox-wrapper-background-color);
+    --color__tl-dt__xbox-sub-image-wrapper-border-color: var(--color__tp-tl__xbox-sub-image-wrapper-border-color);
+    --color__tl-dt__xbox-sub-image-wrapper-background-color: var(--color__tp-tl__xbox-sub-image-wrapper-background-color);
+    --color__tl-dt__xbox-sub-flex-wrapper-border-color: var(--color__tp-tl__xbox-sub-flex-wrapper-border-color);
+    --color__tl-dt__xbox-sub-flex-wrapper-background-color: var(--color__tp-tl__xbox-sub-flex-wrapper-background-color);
+    --color__tl-dt__xbox-sub-content-wrapper-border-color: var(--color__tp-tl__xbox-sub-content-wrapper-border-color);
+    --color__tl-dt__xbox-sub-content-wrapper-background-color: var(--color__tp-tl__xbox-sub-content-wrapper-background-color);
+    /* end - xbox sub component - cse */
+    
+    /* start - r2g content main strip -cse */
+    --number__tl-dt__main-content-strip-border-width: var(--number__tp-tl__main-content-strip-border-width);
+    --number__tl-dt__main-content-strip-container-border-width: var(--number__tp-tl__main-content-strip-container-border-width);
+    --number__tl-dt__main-content-strip-content-wrapper-border-width: var(--number__tp-tl__main-content-strip-content-wrapper-border-width);
+    --color__tl-dt__main-content-strip-border-color: var(--color__tp-tl__main-content-strip-border-color);
+    --color__tl-dt__main-content-strip-background-color: var(--color__tp-tl__main-content-strip-background-color);
+    --color__tl-dt__main-content-strip-container-border-color: var(--color__tp-tl__main-content-strip-container-border-color);
+    --color__tl-dt__main-content-strip-container-background-color: var(--color__tp-tl__main-content-strip-container-background-color);
+    --color__tl-dt__main-content-strip-content-wrapper-border-color: var(--color__tp-tl__main-content-strip-content-wrapper-border-color);
+    --color__tl-dt__main-content-strip-content-wrapper-background-color: var(--color__tp-tl__main-content-strip-content-wrapper-background-color);
+    /* end - r2g content main strip -cse */
+    
+    /* start - r2g rotator main strip */
+    --number__tl-dt__rotator-main-strip-border-width: var(--number__tp-tl__rotator-main-strip-border-width);
+    --number__tl-dt__rotator-main-strip-container-border-width: var(--number__tp-tl__rotator-main-strip-container-border-width);
+    --number__tl-dt__rotator-main-strip-intro-content-border-width: var(--number__tp-tl__rotator-main-strip-intro-content-border-width);
+    --number__tl-dt__rotator-main-strip-rotator-wrapper-border-width: var(--number__tp-tl__rotator-main-strip-rotator-wrapper-border-width);
+    --number__tl-dt__rotator-main-strip-bottom-content-border-width: var(--number__tp-tl__rotator-main-strip-bottom-content-border-width);
+    --color__tl-dt__rotator-main-strip-border-color: var(--color__tp-tl__rotator-main-strip-border-color);
+    --color__tl-dt__rotator-main-strip-background-color: var(--color__tp-tl__rotator-main-strip-background-color);
+    --color__tl-dt__rotator-main-strip-container-border-color: var(--color__tp-tl__rotator-main-strip-container-border-color);
+    --color__tl-dt__rotator-main-strip-container-background-color: var(--color__tp-tl__rotator-main-strip-container-background-color);
+    --color__tl-dt__rotator-main-strip-intro-content-border-color: var(--color__tp-tl__rotator-main-strip-intro-content-border-color);
+    --color__tl-dt__rotator-main-strip-intro-content-background-color: var(--color__tp-tl__rotator-main-strip-intro-content-background-color);
+    --color__tl-dt__rotator-main-strip-rotator-wrapper-border-color: var(--color__tp-tl__rotator-main-strip-rotator-wrapper-border-color);
+    --color__tl-dt__rotator-main-strip-rotator-wrapper-background-color: var(--color__tp-tl__rotator-main-strip-rotator-wrapper-background-color);
+    --color__tl-dt__rotator-main-strip-bottom-content-border-color: var(--color__tp-tl__rotator-main-strip-bottom-content-border-color);
+    --color__tl-dt__rotator-main-strip-bottom-content-background-color: var(--color__tp-tl__rotator-main-strip-bottom-content-background-color);
+    /* end - r2g rotator main strip */
+    
+    /* start - r2g tabs main strip - cse */
+    --number__tl-dt__tab-mainstrip-border-width: var(--number__tp-tl__tab-mainstrip-border-width);
+    --number__tl-dt__tab-mainstrip-container-border-width: var(--number__tp-tl__tab-mainstrip-container-border-width);
+    --number__tl-dt__tab-mainstrip-intro-content-border-width: var(--number__tp-tl__tab-mainstrip-intro-content-border-width);
+    --number__tl-dt__tab-mainstrip-tabs-wrapper-border-width: var(--number__tp-tl__tab-mainstrip-tabs-wrapper-border-width);
+    --number__tl-dt__tab-mainstrip-tab-titles-wrapper-border-width: var(--number__tp-tl__tab-mainstrip-tab-titles-wrapper-border-width);
+    --number__tl-dt__tab-mainstrip-vertical-tab-titles-wrapper-border-width: var(--number__tp-tl__tab-mainstrip-vertical-tab-titles-wrapper-border-width);
+    --number__tl-dt__tab-mainstrip-accordion-title-border-width: var(--number__tp-tl__tab-mainstrip-accordion-title-border-width);
+    --number__tl-dt__tab-mainstrip-accordion-title-content-border-width: var(--number__tp-tl__tab-mainstrip-accordion-title-content-border-widt);
+    --number__tl-dt__tab-mainstrip-horizontal-tab-titles-border-width:  var(--number__tp-tl__tab-mainstrip-horizontal-tab-titles-border-width);
+    --number__tl-dt__tab-mainstrip-vertical-tab-titles-border-width: var(--number__tp-tl__tab-mainstrip-vertical-tab-titles-border-width);
+    --number__tl-dt__tab-mainstrip-tab-content-wrapper-border-width: var(--number__tp-tl__tab-mainstrip-tab-content-wrapper-border-width);
+    --number__tl-dt__tab-mainstrip-vertical-tab-content-wrapper-border-width: var(--number__tp-tl__tab-mainstrip-vertical-tab-content-wrapper-border-width);
+    --number__tl-dt__tab-mainstrip-bottom-content-border-width: var(--number__tp-tl__tab-mainstrip-bottom-content-border-width);
+    --color__tl-dt__tab-mainstrip-border-color: var(--color__tp-tl__tab-mainstrip-border-color);
+    --color__tl-dt__tab-mainstrip-background-color: var(--color__tp-tl__tab-mainstrip-background-color);
+    --color__tl-dt__tab-mainstrip-container-border-color: var(--color__tp-tl__tab-mainstrip-container-border-color);
+    --color__tl-dt__tab-mainstrip-container-background-color: var(--color__tp-tl__tab-mainstrip-container-background-color);
+    --color__tl-dt__tab-mainstrip-intro-content-border-color: var(--color__tp-tl__tab-mainstrip-intro-content-border-color);
+    --color__tl-dt__tab-mainstrip-intro-content-background-color: var(--color__tp-tl__tab-mainstrip-intro-content-background-color);
+    --color__tl-dt__tab-mainstrip-tabs-wrapper-border-color: var(--color__tp-tl__tab-mainstrip-tabs-wrapper-border-color);
+    --color__tl-dt__tab-mainstrip-tabs-wrapper-background-color: var(--color__tp-tl__tab-mainstrip-tabs-wrapper-background-color);
+    --color__tl-dt__tab-mainstrip-accordion-title-border-color: var(--color__tp-tl__tab-mainstrip-accordion-title-border-color);
+    --color__tl-dt__tab-mainstrip-accordion-title-background-color: var(--color__tp-tl__tab-mainstrip-accordion-title-background-color);
+    --color__tl-dt__tab-mainstrip-accordion-title-content-border-color: var(--color__tp-tl__tab-mainstrip-accordion-title-content-border-color);
+    --color__tl-dt__tab-mainstrip-accordion-title-content-background-color: var(--color__tp-tl__tab-mainstrip-accordion-title-content-background-color);
+    --color__tl-dt__tab-mainstrip-tab-titles-wrapper-border-color: var(--color__tp-tl__tab-mainstrip-tab-titles-wrapper-border-color);
+    --color__tl-dt__tab-mainstrip-tab-titles-wrapper-background-color: var(--color__tp-tl__tab-mainstrip-tab-titles-wrapper-background-color);
+    --color__tl-dt__tab-mainstrip-vertical-tab-titles-wrapper-border-color: var(--color__tp-tl__tab-mainstrip-vertical-tab-titles-wrapper-border-colo);
+    --color__tl-dt__tab-mainstrip-vertical-tab-titles-wrapper-background-color: var(--color__tp-tl__tab-mainstrip-vertical-tab-titles-wrapper-background-color);
+    --color__tl-dt__tab-mainstrip-horizontal-tab-title-border-color: var(--color__tp-tl__tab-mainstrip-horizontal-tab-title-border-color);
+    --color__tl-dt__tab-mainstrip-horizontal-tab-title-background-color: var(--color__tp-tl__tab-mainstrip-horizontal-tab-title-background-color);
+    --color__tl-dt__tab-mainstrip-horizontal-tab-active-title-border-color: var(--color__tp-tl__tab-mainstrip-horizontal-tab-active-title-border-color);
+    --color__tl-dt__tab-mainstrip-horizontal-tab-active-title-background-color: var(--color__tp-tl__tab-mainstrip-horizontal-tab-active-title-background-color);
+    --color__tl-dt__tab-mainstrip-vertical-tab-title-border-color: var(--color__tp-tl__tab-mainstrip-vertical-tab-title-border-color);
+    --color__tl-dt__tab-mainstrip-vertical-tab-title-background-color: var(--color__tp-tl__tab-mainstrip-vertical-tab-title-background-color);
+    --color__tl-dt__tab-mainstrip-vertical-tab-active-title-border-color: var(--color__tp-tl__tab-mainstrip-vertical-tab-active-title-border-color);
+    --color__tl-dt__tab-mainstrip-vertical-tab-active-title-background-color: var(--color__tp-tl__tab-mainstrip-vertical-tab-active-title-background-color);
+    --color__tl-dt__tab-mainstrip-tab-content-wrapper-border-color: var(--color__tp-tl__tab-mainstrip-tab-content-wrapper-border-color);
+    --color__tl-dt__tab-mainstrip-tab-content-wrapper-background-color: var(--color__tp-tl__tab-mainstrip-tab-content-wrapper-background-color);
+    --color__tl-dt__tab-mainstrip-bottom-content-border-color: var(--color__tp-tl__tab-mainstrip-bottom-content-border-color);
+    --color__tl-dt__tab-mainstrip-bottom-content-background-color: var(--color__tp-tl__tab-mainstrip-bottom-content-background-color);
+    /* ent - r2g tabs main strip - cse */
+    
+    /* start - r2g flex xlist main strip - cse */
+    --number__tl-dt__r2g-flex-xlist-main-strip-border-width: var(--number__tp-tl__r2g-flex-xlist-main-strip-border-width);
+    --number__tl-dt__r2g-flex-xlist-main-strip-container-border-width: var(--number__tp-tl__r2g-flex-xlist-main-strip-container-border-width);
+    --number__tl-dt__r2g-flex-xlist-main-strip-intro-content-border-width: var(--number__tp-tl__r2g-flex-xlist-main-strip-intro-content-border-width);
+    --number__tl-dt__r2g-flex-xlist-main-strip-xlist-wrapper-border-width: var(--number__tp-tl__r2g-flex-xlist-main-strip-xlist-wrapper-border-width);
+    --number__tl-dt__r2g-flex-xlist-main-strip-bottom-content-border-width: var(--number__tp-tl__r2g-flex-xlist-main-strip-bottom-content-border-width);
+    --color__tl-dt__r2g-flex-xlist-main-strip-border-color: var(--color__tp-tl__r2g-flex-xlist-main-strip-border-color);
+    --color__tl-dt__r2g-flex-xlist-main-strip-background-color: var(--color__tp-tl__r2g-flex-xlist-main-strip-background-color);
+    --color__tl-dt__r2g-flex-xlist-main-strip-container-border-color: var(--color__tp-tl__r2g-flex-xlist-main-strip-container-border-color);
+    --color__tl-dt__r2g-flex-xlist-main-strip-container-background-color: var(--color__tp-tl__r2g-flex-xlist-main-strip-container-background-color);
+    --color__tl-dt__r2g-flex-xlist-main-strip-intro-content-border-color: var(--color__tp-tl__r2g-flex-xlist-main-strip-intro-content-border-color);
+    --color__tl-dt__r2g-flex-xlist-main-strip-intro-content-background-color: var(--color__tp-tl__r2g-flex-xlist-main-strip-intro-content-background-color);
+    --color__tl-dt__r2g-flex-xlist-main-strip-xlist-wrapper-border-color: var(--color__tp-tl__r2g-flex-xlist-main-strip-xlist-wrapper-border-color);
+    --color__tl-dt__r2g-flex-xlist-main-strip-xlist-wrapper-background-color: var(--color__tp-tl__r2g-flex-xlist-main-strip-xlist-wrapper-background-color);
+    --color__tl-dt__r2g-flex-xlist-main-strip-bottom-content-border-color: var(--color__tp-tl__r2g-flex-xlist-main-strip-bottom-content-border-color);
+    --color__tl-dt__r2g-flex-xlist-main-strip-bottom-content-background-color: var(--color__tp-tl__r2g-flex-xlist-main-strip-bottom-content-background-color);
+    /* end - r2g flex xlist main strip - cse */
+	
+	/* start - r2g flex xlist sub component - cse */
+	--number__tl-dt__r2g-flex-xlist-sub-border-width: var(--number__tp-tl__r2g-flex-xlist-sub-border-width);
+	--number__tl-dt__r2g-flex-xlist-sub-intro-content-border-width: var(--number__tp-tl__r2g-flex-xlist-sub-intro-content-border-width);
+	--number__tl-dt__r2g-flex-xlist-sub-xlist-wrapper-border-width: var(--number__tp-tl__r2g-flex-xlist-sub-xlist-wrapper-border-width);
+	--number__tl-dt__r2g-flex-xlist-sub-xlist-item-gap: var(--number__tp-tl__r2g-flex-xlist-sub-xlist-item-gap);
+	--number__tl-dt__r2g-flex-xlist-sub-bottom-content-border-width: var(--number__tp-tl__r2g-flex-xlist-sub-bottom-content-border-width);
+	--color__tl-dt__r2g-flex-xlist-sub-border-color: var(--color__tp-tl__r2g-flex-xlist-sub-border-color);
+	--color__tl-dt__r2g-flex-xlist-sub-background-color: var(--color__tp-tl__r2g-flex-xlist-sub-background-color);
+	--color__tl-dt__r2g-flex-xlist-sub-intro-content-border-color: var(--color__tp-tl__r2g-flex-xlist-sub-intro-content-border-color);
+	--color__tl-dt__r2g-flex-xlist-sub-intro-content-background-color: var(--color__tp-tl__r2g-flex-xlist-sub-intro-content-background-color);
+	--color__tl-dt__r2g-flex-xlist-sub-xlist-wrapper-border-color: var(--color__tp-tl__r2g-flex-xlist-sub-xlist-wrapper-border-color);
+	--color__tl-dt__r2g-flex-xlist-sub-xlist-wrapper-background-color: var(--color__tp-tl__r2g-flex-xlist-sub-xlist-wrapper-background-color);
+	--color__tl-dt__r2g-flex-xlist-sub-bottom-content-border-color: var(--color__tp-tl__r2g-flex-xlist-sub-bottom-content-border-color);
+	--color__tl-dt__r2g-flex-xlist-sub-bottom-content-background-color: var(--color__tp-tl__r2g-flex-xlist-sub-bottom-content-background-color);
+	/* end - r2g flex xlist sub component - cse */
+    
+    /* start - r2g content sub - cse */
+    --number__tl-dt__content-sub-border-width: var(--number__tp-tl__content-sub-border-width);
+    --number__tl-dt__content-sub-content-wrapper-border-width: var(--number__tp-tl__content-sub-content-wrapper-border-width);
+    --color__tl-dt__content-sub-border-color: var(--color__tp-tl__content-sub-border-color);
+    --color__tl-dt__content-sub-background-color: var(--color__tp-tl__content-sub-background-color);
+    --color__tl-dt__content-sub-content-wrapper-border-color: var(--color__tp-tl__content-sub-content-wrapper-border-color);
+    --color__tl-dt__content-sub-content-wrapper-background-color: var(--color__tp-tl__content-sub-content-wrapper-background-color);
+    /* end - r2g content sub - cse */
+    
+    /* start - r2g xlist grid main strip - cse */
+    --number__tl-dt__xlist-grid-main-strip-border-width: var(--number__tp-tl__xlist-grid-main-strip-border-width);
+    --number__tl-dt__xlist-grid-main-strip-container-border-width: var(--number__tp-tl__xlist-grid-main-strip-container-border-width);
+    --number__tl-dt__xlist-grid-main-strip-intro-content-border-width: var(--number__tp-tl__xlist-grid-main-strip-intro-content-border-width);
+    --number__tl-dt__xlist-grid-main-strip-xlist-wrapper-border-width: var(--number__tp-tl__xlist-grid-main-strip-xlist-wrapper-border-width);
+    --color__tl-dt__xlist-grid-main-strip-border-color: var(--color__tp-tl__xlist-grid-main-strip-border-color);
+    --color__tl-dt__xlist-grid-main-strip-background-color: var(--color__tp-tl__xlist-grid-main-strip-background-color);
+    --color__tl-dt__xlist-grid-main-strip-container-border-color: var(--color__tp-tl__xlist-grid-main-strip-container-border-color);
+    --color__tl-dt__xlist-grid-main-strip-container-background-color: var(--color__tp-tl__xlist-grid-main-strip-container-background-color);
+    --color__tl-dt__xlist-grid-main-strip-intro-content-border-color: var(--color__tp-tl__xlist-grid-main-strip-intro-content-border-color);
+    --color__tl-dt__xlist-grid-main-strip-intro-content-background-color: var(--color__tp-tl__xlist-grid-main-strip-intro-content-background-color);
+    --color__tl-dt__xlist-grid-main-strip-xlist-wrapper-border-color: var(--color__tp-tl__xlist-grid-main-strip-xlist-wrapper-border-color);
+    --color__tl-dt__xlist-grid-main-strip-xlist-wrapper-background-color: var(--color__tp-tl__xlist-grid-main-strip-xlist-wrapper-background-color);
+    /* end - r2g xlist grid main strip - cse */
+    
+    /* start - r2g rotator sub component - cse */
+    --number__tl-dt__rotator-sub-component-border-width: var(--number__tp-tl__rotator-sub-component-border-width);
+    --number__tl-dt__rotator-sub-component-intro-content-border-width: var(--number__tp-tl__rotator-sub-component-intro-content-border-width);
+    --number__tl-dt__rotator-sub-component-rotator-wrapper-border-width: var(--number__tp-tl__rotator-sub-component-rotator-wrapper-border-width);
+    --number__tl-dt__rotator-sub-component-slick-slide-border-width: var(--number__tp-tl__rotator-sub-component-slick-slide-border-width);
+    --number__tl-dt__rotator-sub-component-slick-slide-margin-left: var(--number__tp-tl__rotator-sub-component-slick-slide-margin-left);
+    --number__tl-dt__rotator-sub-component-slick-slide-margin-right: var(--number__tp-tl__rotator-sub-component-slick-slide-margin-right);
+    --number__tl-dt__rotator-sub-component-bottom-content-border-width: var(--number__tp-tl__rotator-sub-component-bottom-content-border-width);
+    --color__tl-dt__rotator-sub-component-border-color: var(--color__tp-tl__rotator-sub-component-border-color);
+    --color__tl-dt__rotator-sub-component-background-color: var(--color__tp-tl__rotator-sub-component-background-color);
+    --color__tl-dt__rotator-sub-component-intro-content-border-color: var(--color__tp-tl__rotator-sub-component-intro-content-border-color);
+    --color__tl-dt__rotator-sub-component-intro-content-background-color: var(--color__tp-tl__rotator-sub-component-intro-content-background-color);
+    --color__tl-dt__rotator-sub-component-rotator-wrapper-border-color: var(--color__tp-tl__rotator-sub-component-rotator-wrapper-border-color);
+    --color__tl-dt__rotator-sub-component-rotator-wrapper-background-color: var(--color__tp-tl__rotator-sub-component-rotator-wrapper-background-color);
+    --color__tl-dt__rotator-sub-component-slick-slide-border-color: var(--color__tp-tl__rotator-sub-component-slick-slide-border-color);
+    --color__tl-dt__rotator-sub-component-slick-slide-background-color: var(--color__tp-tl__rotator-sub-component-slick-slide-background-color);
+    --color__tl-dt__rotator-sub-component-bottom-content-border-color: var(--color__tp-tl__rotator-sub-component-bottom-content-border-color);
+    --color__tl-dt__rotator-sub-component-bottom-content-background-color: var(--color__tp-tl__rotator-sub-component-bottom-content-background-color);
+    /* end - r2g rotator sub component - cse */
+    
+    /* start - r2g accordion main strip - cse */
+    --number__tl-dt__accordion-main-strip-border-width: var(--number__tp-tl__accordion-main-strip-border-width);
+    --number__tl-dt__accordion-main-strip-container-border-width: var(--number__tp-tl__accordion-main-strip-container-border-width);
+    --number__tl-dt__accordion-main-strip-intro-content-border-width: var(--number__tp-tl__accordion-main-strip-intro-content-border-width);
+    --number__tl-dt__accordion-main-strip-accordion-wrapper-border-width: var(--number__tp-tl__accordion-main-strip-accordion-wrapper-border-width);
+    --number__tl-dt__accordion-main-strip-accordion-title-border-width: var(--number__tp-tl__accordion-main-strip-accordion-title-border-width);
+    --number__tl-dt__accordion-main-strip-accordion-content-wrapper-border-width: var(--number__tp-tl__accordion-main-strip-accordion-content-wrapper-border-width);
+    --color__tl-dt__accordion-main-strip-border-color: var(--color__tp-tl__accordion-main-strip-border-color);
+    --color__tl-dt__accordion-main-strip-background-color: var(--color__tp-tl__accordion-main-strip-background-color);
+    --color__tl-dt__accordion-main-strip-container-border-color: var(--color__tp-tl__accordion-main-strip-container-border-color);
+    --color__tl-dt__accordion-main-strip-container-background-color: var(--color__tp-tl__accordion-main-strip-container-background-color);
+    --color__tl-dt__accordion-main-strip-intro-content-border-color: var(--color__tp-tl__accordion-main-strip-intro-content-border-color);
+    --color__tl-dt__accordion-main-strip-intro-content-background-color: var(--color__tp-tl__accordion-main-strip-intro-content-background-color);
+    --color__tl-dt__accordion-main-strip-accordion-wrapper-border-color: var(--color__tp-tl__accordion-main-strip-accordion-wrapper-border-color);
+    --color__tl-dt__accordion-main-strip-accordion-wrapper-background-color: var(--color__tp-tl__accordion-main-strip-accordion-wrapper-background-color);
+    --color__tl-dt__accordion-main-strip-accordion-title-border-color: var(--color__tp-tl__accordion-main-strip-accordion-title-border-color);
+    --color__tl-dt__accordion-main-strip-accordion-title-background-color: var(--color__tp-tl__accordion-main-strip-accordion-title-background-color);
+    --color__tl-dt__accordion-main-strip-accordion-content-wrapper-border-color: var(--color__tp-tl__accordion-main-strip-accordion-content-wrapper-border-color);
+    --color__tl-dt__accordion-main-strip-accordion-content-wrapper-background-color: var(--color__tp-tl__accordion-main-strip-accordion-content-wrapper-background-color);
+    /* end - r2g accordion main strip - cse */
+    
+    /* start - r2g expandable xlist main strip - cse */
+    --number__tl-dt__expandable-xlist-border-width: var(--number__tp-tl__expandable-xlist-border-width);
+    --number__tl-dt__expandable-xlist-main-content-wrapper-border-width: var(--number__tp-tl__expandable-xlist-main-content-wrapper-border-width);
+    --number__tl-dt__expandable-xlist-main-content-border-width: var(--number__tp-tl__expandable-xlist-main-content-border-width);
+    --number__tl-dt__expandable-xlist-panel-wrapper-border-width: var(--number__tp-tl__expandable-xlist-panel-wrapper-border-width);
+    --number__tl-dt__expandable-xlist-panel-item-border-width: var(--number__tp-tl__expandable-xlist-panel-item-border-width);
+    --number__tl-dt__expandable-xlist-intro-content-border-width: var(--number__tp-tl__expandable-xlist-intro-content-border-width);
+    --number__tl-dt__expandable-xlist-full-content-border-width: var(--number__tp-tl__expandable-xlist-full-content-border-width);
+    --color__tl-dt__expandable-xlist-border-color: var(--color__tp-tl__expandable-xlist-border-color);
+    --color__tl-dt__expandable-xlist-background-color: var(--color__tp-tl__expandable-xlist-background-color);
+    --color__tl-dt__expandable-xlist-main-content-wrapper-border-color: var(--color__tp-tl__expandable-xlist-main-content-wrapper-border-color);
+    --color__tl-dt__expandable-xlist-main-content-wrapper-background-color: var(--color__tp-tl__expandable-xlist-main-content-wrapper-background-color);
+    --color__tl-dt__expandable-xlist-main-content-border-color: var(--color__tp-tl__expandable-xlist-main-content-border-color);
+    --color__tl-dt__expandable-xlist-main-content-background-color: var(--color__tp-tl__expandable-xlist-main-content-background-color);
+    --color__tl-dt__expandable-xlist-panel-wrapper-border-color: var(--color__tp-tl__expandable-xlist-panel-wrapper-border-color);
+    --color__tl-dt__expandable-xlist-panel-wrapper-background-color: var(--color__tp-tl__expandable-xlist-panel-wrapper-background-color);
+    --color__tl-dt__expandable-xlist-panel-item-border-color: var(--color__tp-tl__expandable-xlist-panel-item-border-color);
+	--color__tl-dt__expandable-xlist-panel-item-background-color: var(--color__tp-tl__expandable-xlist-panel-item-background-color);
+	--color__tl-dt__expandable-xlist-intro-content-border-color: var(--color__tp-tl__expandable-xlist-intro-content-border-color);
+    --color__tl-dt__expandable-xlist-intro-content-background-color: var(--color__tp-tl__expandable-xlist-intro-content-background-color);
+    --color__tl-dt__expandable-xlist-full-content-border-color: var(--color__tp-tl__expandable-xlist-full-content-border-color);
+    --color__tl-dt__expandable-xlist-full-content-background-color: var(--color__tp-tl__expandable-xlist-full-content-background-color);
+    /* end - r2g expandable xlist main strip - cse */
+    
+    /* start - r2g gallery main strip - cse */
+    --number__tl-dt__gallery-main-strip-border-width: var(--number__tp-tl__gallery-main-strip-border-width);
+    --number__tl-dt__gallery-main-strip-container-border-width: var(--number__tp-tl__gallery-main-strip-container-border-width);
+    --number__tl-dt__gallery-main-strip-intro-content-border-width: var(--number__tp-tl__gallery-main-strip-intro-content-border-width);
+    --number__tl-dt__gallery-main-strip-xlist-wrapper-border-width: var(--number__tp-tl__gallery-main-strip-xlist-wrapper-border-width);
+    --number__tl-dt__gallery-main-strip-item-border-width: var(--number__tp-tl__gallery-main-strip-item-border-width);
+    --color__tl-dt__gallery-main-strip-border-color: var(--color__tp-tl__gallery-main-strip-border-color);
+    --color__tl-dt__gallery-main-strip-background-color: var(--color__tp-tl__gallery-main-strip-background-color);
+    --color__tl-dt__gallery-main-strip-container-border-color: var(--color__tp-tl__gallery-main-strip-container-border-color);
+    --color__tl-dt__gallery-main-strip-container-background-color: var(--color__tp-tl__gallery-main-strip-container-background-color);
+    --color__tl-dt__gallery-main-strip-intro-content-border-color: var(--color__tp-tl__gallery-main-strip-intro-content-border-color);
+    --color__tl-dt__gallery-main-strip-intro-content-background-color: var(--color__tp-tl__gallery-main-strip-intro-content-background-color);
+    --color__tl-dt__gallery-main-strip-xlist-wrapper-border-color: var(--color__tp-tl__gallery-main-strip-xlist-wrapper-border-color);
+    --color__tl-dt__gallery-main-strip-xlist-wrapper-background-color: var(--color__tp-tl__gallery-main-strip-xlist-wrapper-background-color);
+    --color__tl-dt__gallery-main-strip-item-border-color: var(--color__tp-tl__gallery-main-strip-item-border-color);
+    --color__tl-dt__gallery-main-strip-item-background-color: var(--color__tp-tl__gallery-main-strip-item-background-color);
+    --color__tl-dt__gallery-main-strip-download-icon-color: var(--color__tp-tl__gallery-main-strip-download-icon-color);
+    --color__tl-dt__gallery-main-strip-download-icon-border-color: var(--color__tp-tl__gallery-main-strip-download-icon-border-color);
+    --color__tl-dt__gallery-main-strip-download-icon-background-color: var(--color__tp-tl__gallery-main-strip-download-icon-background-color);
+    /* end - r2g gallery main strip - cse */
+    
+    /* start - r2g googlemap main strip */
+    --color__tl-dt__googlemap-main-strip-border-color: var(--color__tp-tl__googlemap-main-strip-border-color);
+    --color__tl-dt__googlemap-main-strip-background-color: var(--color__tp-tl__googlemap-main-strip-background-color);
+    --color__tl-dt__googlemap-main-strip-intro-content-border-color: var(--color__tp-tl__googlemap-main-strip-intro-content-border-color);
+    --color__tl-dt__googlemap-main-strip-intro-content-background-color: var(--color__tp-tl__googlemap-main-strip-intro-content-background-color);
+    --color__tl-dt__googlemap-main-strip-category-wrapper-border-color: var(--color__tp-tl__googlemap-main-strip-category-wrapper-border-color);
+    --color__tl-dt__googlemap-main-strip-category-wrapper-background-color: var(--color__tp-tl__googlemap-main-strip-category-wrapper-background-color);
+    --color__tl-dt__googlemap-main-strip-content-wrapper-border-color: var(--color__tp-tl__googlemap-main-strip-content-wrapper-border-color);
+    --color__tl-dt__googlemap-main-strip-content-wrapper-background-color: var(--color__tp-tl__googlemap-main-strip-content-wrapper-background-color);
+    --color__tl-dt__googlemap-main-strip-map-wrapper-border-color: var(--color__tp-tl__googlemap-main-strip-map-wrapper-border-color);
+    --color__tl-dt__googlemap-main-strip-infobox-border-color: var(--color__tp-tl__googlemap-main-strip-infobox-border-color);
+    --color__tl-dt__googlemap-main-strip-infobox-background-color: var(--color__tp-tl__googlemap-main-strip-infobox-background-color);
+    --color__tl-dt__googlemap-main-strip-infobox-content-wrapper-border-color: var(--color__tp-tl__googlemap-main-strip-infobox-content-wrapper-border-color);
+    --color__tl-dt__googlemap-main-strip-infobox-content-wrapper-background-color: var(--color__tp-tl__googlemap-main-strip-infobox-content-wrapper-background-color);
+    /* end - r2g googlemap main strip */
+    
+    /* start - r2g horizontal menu main strip */
+    --number__tl-dt__horizontal-menu-menu-wrapper-padding: var(--number__tp-tl__horizontal-menu-menu-wrapper-padding);
+    --number__tl-dt__horizontal-menu-menu-inner-wrapper-padding: var(--number__tp-tl__horizontal-menu-menu-inner-wrapper-padding);
+    --number__tl-dt__horizontal-menu-menu-item-link-padding: var(--number__tp-tl__horizontal-menu-menu-item-link-padding);
+    --color__tl-dt__horizontal-menu-border-color: var(--color__tp-tl__horizontal-menu-border-color);
+    --color__tl-dt__horizontal-menu-background-color: var(--color__tp-tl__horizontal-menu-background-color);
+    --color__tl-dt__horizontal-menu-container-border-color: var(--color__tp-tl__horizontal-menu-container-border-color);
+    --color__tl-dt__horizontal-container-menu-background-color: var(--color__tp-tl__horizontal-container-menu-background-color);
+    --color__tl-dt__horizontal-menu-menu-wrapper-border-color: var(--color__tp-tl__horizontal-menu-menu-wrapper-border-color);
+    --color__tl-dt__horizontal-menu-wrapper-menu-background-color: var(--color__tp-tl__horizontal-menu-wrapper-menu-background-color);
+    --color__tl-dt__horizontal-menu-menu-inner-wrapper-border-color: var(--color__tp-tl__horizontal-menu-menu-inner-wrapper-border-color);
+    --color__tl-dt__horizontal-menu-inner-wrapper-menu-background-color: var(--color__tp-tl__horizontal-menu-inner-wrapper-menu-background-color);
+    --color__tl-dt__horizontal-menu-menu-item-border-color: var(--color__tp-tl__horizontal-menu-menu-item-border-color);
+    --color__tl-dt__horizontal-menu-menu-item-background-color: var(--color__tp-tl__horizontal-menu-menu-item-background-color);
+    --color__tl-dt__horizontal-menu-menu-item-link-border-color: var(--color__tp-tl__horizontal-menu-menu-item-link-border-color);
+    --color__tl-dt__horizontal-menu-menu-item-link-background-color: var(--color__tp-tl__horizontal-menu-menu-item-link-background-color);
+    /* end - r2g horizontal menu main strip */
+    
+    /* start - r2g accordion sub component - cse */
+    --number__tl-dt__accordion-sub-border-width: var(--number__tp-tl__accordion-sub-border-width);
+    --number__tl-dt__accordion-sub-intro-content-border-width: var(--number__tp-tl__accordion-sub-intro-content-border-width);
+    --number__tl-dt__accordion-sub-accordion-wrapper-border-width: var(--number__tp-tl__accordion-sub-accordion-wrapper-border-width);
+    --number__tl-dt__accordion-sub-accordion-title-border-width: var(--number__tp-tl__accordion-sub-accordion-title-border-width);
+    --number__tl-dt__accordion-sub-accordion-content-wrapper-border-width: var(--number__tp-tl__accordion-sub-accordion-content-wrapper-border-width);
+    --color__tl-dt__accordion-sub-border-color: var(--color__tp-tl__accordion-sub-border-color);
+    --color__tl-dt__accordion-sub-background-color: var(--color__tp-tl__accordion-sub-background-color);
+    --color__tl-dt__accordion-sub-intro-content-border-color: var(--color__tp-tl__accordion-sub-intro-content-border-color);
+    --color__tl-dt__accordion-sub-intro-content-background-color: var(--color__tp-tl__accordion-sub-intro-content-background-color);
+    --color__tl-dt__accordion-sub-accordion-wrapper-border-color: var(--color__tp-tl__accordion-sub-accordion-wrapper-border-color);
+    --color__tl-dt__accordion-sub-accordion-wrapper-background-color: var(--color__tp-tl__accordion-sub-accordion-wrapper-background-color);
+    --color__tl-dt__accordion-sub-accordion-title-border-color: var(--color__tp-tl__accordion-sub-accordion-title-border-color);
+    --color__tl-dt__accordion-sub-accordion-title-background-color: var(--color__tp-tl__accordion-sub-accordion-title-background-color);
+    --color__tl-dt__accordion-sub-accordion-content-wrapper-border-color: var(--color__tp-tl__accordion-sub-accordion-content-wrapper-border-color);
+    --color__tl-dt__accordion-sub-accordion-content-wrapper-background-color: var(--color__tp-tl__accordion-sub-accordion-content-wrapper-background-color);
+    /* end - r2g accordion sub component - cse */
+    
+    /* start - r2g form sub component - cse */
+    --number__tl-dt__form-sub-border-width: var(--number__tp-tl__form-sub-border-width);
+    --number__tl-dt__form-sub-intro-content-border-width: var(--number__tp-tl__form-sub-intro-content-border-width);
+    --number__tl-dt__form-sub-form-wrapper-border-width: var(--number__tp-tl__form-sub-form-wrapper-border-width);
+    --number__tl-dt__form-sub-form-group-border-width: var(--number__tp-tl__form-sub-form-group-border-width);
+    --color__tl-dt__form-sub-border-color: var(--color__tp-tl__form-sub-border-color);
+    --color__tl-dt__form-sub-background-color: var(--color__tp-tl__form-sub-background-color);
+    --color__tl-dt__form-sub-intro-content-border-color: var(--color__tp-tl__form-sub-intro-content-border-color);
+    --color__tl-dt__form-sub-intro-content-background-color: var(--color__tp-tl__form-sub-intro-content-background-color);
+    --color__tl-dt__form-sub-form-wrapper-border-color: var(--color__tp-tl__form-sub-form-wrapper-border-color);
+    --color__tl-dt__form-sub-form-wrapper-background-color: var(--color__tp-tl__form-sub-form-wrapper-background-color);
+    --color__tl-dt__form-sub-form-group-border-color: var(--color__tp-tl__form-sub-form-group-border-color);
+    --color__tl-dt__form-sub-form-group-background-color: var(--color__tp-tl__form-sub-form-group-background-color);
+    /* end - r2g form sub component - cse */
+    
+    /* start - r2g cookie */
+    --number__tl-dt__cookie-border-width: var(--number__tp-tl__cookie-border-width);
+    --number__tl-dt__cookie-wrapper-border-width: var(--number__tp-tl__cookie-wrapper-border-width);
+    --number__tl-dt__cookie-content-wrapper-border-width: var(--number__tp-tl__cookie-content-wrapper-border-width);
+    --number__tl-dt__cookie-button-wrapper-border-width: var(--number__tp-tl__cookie-button-wrapper-border-width);
+    --color__tl-dt__cookie-border-color: var(--color__tp-tl__cookie-border-color);
+    --color__tl-dt__cookie-background-color: var(--color__tp-tl__cookie-background-color);
+    --color__tl-dt__cookie-wrapper-border-color: var(--color__tp-tl__cookie-wrapper-border-color);
+    --color__tl-dt__cookie-wrapper-background-color: var(--color__tp-tl__cookie-wrapper-background-color);
+    --color__tl-dt__cookie-content-wrapper-border-color: var(--color__tp-tl__cookie-content-wrapper-border-color);
+    --color__tl-dt__cookie-content-wrapper-background-color: var(--color__tp-tl__cookie-content-wrapper-background-color);
+    --color__tl-dt__cookie-button-wrapper-border-color: var(--color__tp-tl__cookie-button-wrapper-border-color: var);
+    --color__tl-dt__cookie-button-wrapper-background-color: var(--color__tp-tl__cookie-button-wrapper-background-color);
+    /* end - r2g cookie */
+    
+    /* start - r2g footer - cse */
+    --number__tl-dt__footer-border-width: var(--number__tp-tl__footer-border-width);
+    --number__tl-dt__footer-items-wrapper-border-width: var(--number__tp-tl__footer-items-wrapper-border-width);
+    --number__tl-dt__footer-item-border-width: var(--number__tp-tl__footer-item-border-width);
+    --number__tl-dt__footer-copyright-border-width: var(--number__tp-tl__footer-copyright-border-width);
+    --number__tl-dt__footer-input-border-width: var(--number__tp-tl__footer-input-border-width);
+    --number__tl-dt__footer-input-height: var(--number__tp-tl__footer-input-height);
+    --number__tl-dt__footer-button-padding: var(--number__tp-tl__footer-button-padding);
+    --color__tl-dt__footer-input-border-color: var(--color__tp-tl__footer-input-border-color);
+    --color__tl-dt__footer-input-background-color: var(--color__tp-tl__footer-input-background-color);
+    /* end - r2g footer - cse */
+    
+}
+
+/*///////////////////////////////////////*/
+/* START - MUST HAVE CSS */
+/*///////////////////////////////////////*/
+    /* Start - Typography */
+    h1{
+        margin: var(--number__tl-dt__heading-one-margin);
+    }
+    h2{
+        margin: var(--number__tl-dt__heading-two-margin);
+    }
+    h3{
+        margin: var(--number__tl-dt__heading-three-margin);
+    }
+    h4{
+        margin: var(--number__tl-dt__heading-four-margin);
+    }
+    h5{
+        margin: var(--number__tl-dt__heading-five-margin);
+    }
+    h6{
+        margin: var(--number__tl-dt__heading-six-margin);
+    }
+    /* End - Typography */
+    
+    .strip-row{
+        margin: var(--number__tl-dt__strip-row-margin);
+        background-color: var(--color__tl-dt__main-strip-background-color);
+    }
+    .r2g-breadcrumb{
+        margin: var(--number__df__breadcrumb-margin);
+    }
+    
+    /* start - arrows */
+    
+    .arrows-wrapper .slick-arrow{
+        border-width: var(--number__tl-dt__rotator-arrow-border-width);
+        border-radius: var(--number__tl-dt__rotator-arrow-border-radius);
+        border-color: var(--color__tl-dt__rotator-arrow-border-color);
+        background-color: var(--color__tl-dt__rotator-arrow-background-color);
+    }
+    .arrows-wrapper .nav-left.slick-arrow{
+        left: 0;
+    }
+    .arrows-wrapper .nav-right.slick-arrow{
+       right: 0;
+    }
+        .arrows-wrapper .slick-arrow .line-one{
+            width: 45px;
+            height: 45px;
+            color: var(--color__tl-dt__rotator-arrow-color);
+        }
+            .arrows-wrapper .nav-left .line-one:after{
+                font-size: 30px;
+                line-height: 45px;
+            }
+            .arrows-wrapper .nav-right .line-one:after{
+                font-size: 30px;
+                line-height: 45px;
+            }
+    
+    /* end - arrowz */
+    
+    /* start - pagers */
+    
+    .pager-wrapper li{
+        width: var(--number__tl-dt__rotator-pager-width);
+        height: var(--number__tl-dt__rotator-pager-height);
+        margin: var(--number__tl-dt__rotator-pager-margin);
+        border-width: var(--number__tl-dt__rotator-pager-border-width);
+        border-color: var(--color__tl-dt__rotator-pager-border-color);
+    }
+    .pager-wrapper li.slick-active{
+        border-color: var(--color__tl-dt__rotator-active-pager-border-color);
+        background-color: var(--color__tl-dt__rotator-active-pager-background-color);
+    }
+    .thumb-wrapper .slick-current .rotatorThumbs{
+        border-width: var(--number__tl-dt__rotator-pager-border-width);
+        border-color: var(--color__tl-dt__rotator-active-pager-border-color);
+        background-color: var(--color__tl-dt__rotator-active-pager-background-color);
+    }
+    
+    /* end - pagers */
+    
+    /* start - forms */
+    
+    input[type="email"], 
+    input[type="number"], 
+    input[type="search"], 
+    input[type="text"], 
+    input[type="tel"], 
+    input[type="url"], 
+    input[type="password"], 
+    input[type="date"],
+    .form-group .file-button,
+    textarea, select {
+    	height: var(--number__tl-dt__input-height);
+    	padding: var(--number__tl-dt__input-padding);
+    	background-color: var(--color__tl-dt__input-background-color);
+    	border-width: var(--number__tl-dt__input-border-width);
+    	border-color: var(--color__tl-dt__input-border-color);
+    	border-radius: var(--number__tl-dt__input-border-radius);
+    }
+    textarea{
+        height: var(--number__tl-dt__textarea-height);
+    }
+    input[type="email"]:focus, 
+    input[type="number"]:focus, 
+    input[type="search"]:focus, 
+    input[type="text"]:focus, 
+    input[type="tel"]:focus, 
+    input[type="url"]:focus, 
+    input[type="password"]:focus, 
+    input[type="file"]:focus,
+    input[type="date"]:focus,
+    textarea:focus, 
+    select:focus{
+        border-color: var(--color__tl-dt__input-on-focus-border-color);
+    }
+    .fb-inner:after{
+        color: var(--color__tl-dt__input-icon-color);
+    }
+    .fb-radio-helper:after,
+    .fb-checkbox-helper:after,
+    .fb-cr input:checked ~ .fb-radio-helper:before,
+    .fb-cr input:checked ~ .fb-checkbox-helper:before{
+    	color: var(--color__tl-dt__input-border-color);
+    }
+    .fb-cr input:checked ~ .fb-radio-helper:after,
+    .fb-cr input:checked ~ .fb-checkbox-helper:after{
+    	color: var(--color__tl-dt__input-icon-color);
+    }
+    .fb-file-inner:after {
+    	background-color: var(--color__secondary-background-color);
+    }
+    .fb-file-inner:before {
+        color: var(--color__tl-dt__input-icon-color);
+    }
+    
+    /* end - forms */
+    
+    /* start - datepicker */
+    .ui-datepicker {
+    	border-color: var(--color__tl-dt__datepicker-border-color);
+    	background-color: var(--color__tl-dt__datepicker-background-color);
+    }
+    .ui-datepicker table tbody,
+    .ui-datepicker tr:nth-of-type(2n){
+        background-color: var(--color__tl-dt__datepicker-table-body-background-color);
+    }
+    .ui-datepicker .ui-datepicker-title,
+    .ui-datepicker .ui-datepicker-next:before, 
+    .ui-datepicker .ui-datepicker-prev:before,
+    .ui-datepicker th{
+    	color: var(--color__tl-dt__datepicker-table-heading-color);
+    }
+    .ui-datepicker td .ui-state-default {
+        padding: var(--number__tl-dt__datepicker-default-padding);
+        border-radius: var(--number__tl-dt__datepicker-default-border-radius);
+        border-width: var(--number__tl-dt__datepicker-default-border-width);
+        border-color: var(--color__tl-dt__datepicker-default-border-color);
+        color: var(--color__tl-dt__datepicker-default-color);
+        background: var(--color__tl-dt__datepicker-default-background-color);
+    }
+    .ui-datepicker td.ui-state-disabled .ui-state-default {
+        border-color: var(--color__tl-dt__datepicker-disabled-border-color);
+        color: var(--color__tl-dt__datepicker-disabled-color);
+        background: var(--color__tl-dt__datepicker-disabled-background-color);
+    }
+    .ui-datepicker td.ui-datepicker-today .ui-state-default,
+    .ui-datepicker td.ui-datepicker-today .ui-state-default.ui-state-hover{
+    	background-color: var(--color__tl-dt__datepicker-today-background-color);
+    	color: var(--color__tl-dt__datepicker-today-color);
+    }
+    .ui-datepicker td .ui-state-default.ui-state-hover,
+    .ui-datepicker td .ui-state-default.ui-state-active{
+    	background-color: var(--color__tl-dt__datepicker-highlight-background-color);
+    	color: var(--color__tl-dt__datepicker-highlight-color);
+    }
+    /* end - datepicker */
+    
+/*///////////////////////////////////////*/
+/* END - MUST HAVE CSS */
+/*///////////////////////////////////////*/
+
+/*///////////////////////////////////////*/
+/* START - OPTIONAL CSS */
+/*///////////////////////////////////////*/
+
+    
+    
+    .r2g-xlist-accordion-main-strip .strip-item > .accordion-title:after {
+    	font-size: 2rem;
+    }
+    
+    /* end - r2g accordion main strip - cse */
+
+    /***********************************
+     * Start - Variable related CSS
+    **********************************/
+    
+    /* start - r2g header*/
+    
+    .r2g-header .header-bottom-bar .primary-button{
+        padding: var(--number__tl-dt__header-bottom-bar-primary-button-padding);
+        border-color: var(--color__tl-dt__header-bottom-bar-primary-button-border-color);
+        background-color: var(--color__tl-dt__header-bottom-bar-primary-button-background-color);
+    }
+    .r2g-header .header-bottom-bar .primary-button:hover{
+        border-color: var(--color__tl-dt__header-bottom-bar-primary-button-on-hover-border-color);
+        background-color: var(--color__tl-dt__header-bottom-bar-primary-button-on-hover-background-color);
+    }
+    .header-fixed.r2g-header{
+        box-shadow: var(--number__tl-dt__header-fixed-shadow-border) var(--color__tl-dt__header-fixed-shadow-color);
+    }
+    .r2g-header .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar, 
+    .r2g-header .mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+    .r2g-header .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    	background-color: var(--color__tl-dt__header-more-menu-scrollbar-dragger-background-color);
+    }
+    .r2g-header .mCSB_scrollTools .mCSB_draggerRail{
+    	background-color: var(--color__tl-dt__header-more-menu-scrollbar-background-color);
+    }
+    
+    /* end - r2g header*/
+    
+    /* start - r2g main visual - cse */
+    
+    .r2g-main-visual{
+        margin: var(--number__tl-dt__main-visual-margin);
+    }
+    .main-visual-default .main-visual-slogan-wrapper {
+        border-color: var(--color__tl-dt__main-visual-slogan-wrapper-border-color);
+        background-color: var(--color__tl-dt__main-visual-slogan-wrapper-background-color);
+    }
+        .main-visual-default .container {
+            border-color: var(--color__tl-dt__main-visual-slogan-wrapper-border-color);
+            background-color: var(--color__tl-dt__main-visual-slogan-wrapper-background-color);
+        }
+    .main-visual-default .main-visual-play{
+        color: var(--color__tl-dt__main-visual-video-icon-color);
+    }
+    .main-visual-default .slider-navigation {
+        color: var(--color__tl-dt__main-visual-arrow-color);
+        border-color: var(--color__tl-dt__main-visual-arrow-border-color);
+        background-color: var(--color__tl-dt__main-visual-arrow-background-color);
+    }
+    .main-visual-default .main-visual-pager-wrapper li{
+        border-color: var(--color__tl-dt__main-visual-pager-border-color);
+        background-color: var(--color__tl-dt__main-visual-pager-background-color);
+    }
+    .main-visual-default .main-visual-pager-wrapper .slick-active{
+        border-color: var(--color__tl-dt__main-visual-active-pager-border-color);
+        background-color: var(--color__tl-dt__main-visual-active-pager-background-color);
+    }
+    
+    /* start - r2g main visual - cse */
+    
+    /* start - r2g footer newsletter - cse */
+    footer input[type="email"]{
+        border-width: var(--number__tl-dt__footer-input-border-width);
+        border-color: var(--color__tl-dt__footer-input-border-color);
+        background-color: var(--color__tl-dt__footer-input-background-color);
+    }
+    footer button,
+    footer .primary-button{
+        height: var(--number__tl-dt__footer-input-height);
+        padding: var(--number__tl-dt__footer-button-padding);
+    }
+    /* end - r2g footer newsletter - cse */
+    
+    /***********************************
+     * End - Variable related CSS
+    **********************************/
+
+/*///////////////////////////////////////*/
+/* END - OPTIONAL CSS */
+/*///////////////////////////////////////*/

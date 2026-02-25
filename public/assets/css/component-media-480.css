@@ -1,0 +1,19 @@
+
+/** START R2G Footer Form - CSE **/
+footer .cms-form .fb-text,
+footer .cms-form .fb-privacyfield{
+    float: left;
+}
+footer .cms-form .fb-text{
+    width: calc(100% - 105px);
+}
+footer .cms-form .fb-button{
+    width: 105px;
+    float: right;
+}
+    footer .cms-form .fb-text input,
+    footer .cms-form .fb-button button{
+        width: 100%;
+    }
+
+/** END R2G Footer Form - CSE **/

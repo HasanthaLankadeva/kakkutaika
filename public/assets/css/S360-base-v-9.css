@@ -1,0 +1,1391 @@
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+ html {
+ 	font-family: sans-serif; /* 1 */
+ 	-ms-text-size-adjust: 100%; /* 2 */
+ 	-webkit-text-size-adjust: 100%; /* 2 */
+ }
+
+/**
+ * Set DOCUMENT font size
+ */
+ body {
+ 	font-size: 16px;
+ 	margin: 0; /*Remove default margin.*/
+ }
+
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+
+ article,
+ aside,
+ details,
+ figcaption,
+ figure,
+ footer,
+ header,
+ hgroup,
+ main,
+ menu,
+ nav,
+ section,
+ summary {
+ 	display: block;
+ }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+
+ audio,
+ canvas,
+ progress,
+ video {
+ 	display: inline-block; /* 1 */
+ 	vertical-align: baseline; /* 2 */
+ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+ audio:not([controls]) {
+ 	display: none;
+ 	height: 0;
+ }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+
+ [hidden],
+ template {
+ 	display: none;
+ }
+
+/* Links
+========================================================================== */
+
+ 
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+
+ a {
+ 	background-color: transparent;
+ }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+
+ a:active,
+ a:hover {
+ 	outline: 0;
+ }
+
+
+/* Text-level semantics
+========================================================================== */
+
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+
+ abbr[title] {
+ 	border-bottom: 1px dotted;
+ }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+
+ b,
+ strong {
+ 	font-weight: bold;
+ }
+
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+ sub,
+ sup {
+ 	font-size: 75%;
+ 	line-height: 0;
+ 	position: relative;
+ 	vertical-align: baseline;
+ }
+
+ sup {
+ 	top: -0.5em;
+ }
+
+ sub {
+ 	bottom: -0.25em;
+ }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+ svg:not(:root) {
+ 	overflow: hidden;
+ }
+
+/* Forms
+========================================================================== */
+
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+
+ button,
+ input,
+ optgroup,
+ select,
+ textarea {
+ 	color: inherit; /* 1 */
+ 	font: inherit; /* 2 */
+ 	margin: 0; /* 3 */
+ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+
+ button {
+ 	overflow: visible;
+ }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+
+ button,
+ select {
+ 	text-transform: none;
+ }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+ button,
+ html input[type="button"], /* 1 */
+ input[type="reset"],
+ input[type="submit"] {
+ 	-webkit-appearance: button; /* 2 */
+ 	cursor: pointer; /* 3 */
+ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+
+ button[disabled],
+ html input[disabled] {
+ 	cursor: default;
+ }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+
+ button::-moz-focus-inner,
+ input::-moz-focus-inner {
+ 	border: 0;
+ 	padding: 0;
+ }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+ input {
+ 	line-height: normal;
+ }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+
+ input[type="checkbox"],
+ input[type="radio"] {
+ 	box-sizing: border-box; /* 1 */
+ 	padding: 0; /* 2 */
+ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+
+ input[type="number"]::-webkit-inner-spin-button,
+ input[type="number"]::-webkit-outer-spin-button {
+ 	height: auto;
+ }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+ input[type="search"] {
+ 	-webkit-appearance: textfield; /* 1 */
+ 	-moz-box-sizing: content-box;
+ 	-webkit-box-sizing: content-box; /* 2 */
+ 	box-sizing: content-box;
+ }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+
+ input[type="search"]::-webkit-search-cancel-button,
+ input[type="search"]::-webkit-search-decoration {
+ 	-webkit-appearance: none;
+ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+
+ textarea {
+ 	overflow: auto;
+ }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+
+ optgroup {
+ 	font-weight: bold;
+ }
+
+/**
+ * Prevent images overflow
+ * Remove images bottom gap
+ */
+ img {
+ 	max-width:100%;
+ 	vertical-align: middle;
+ 	border: 0;
+ }
+
+/* Tables
+========================================================================== */
+
+/**
+ * Remove most spacing between table cells.
+ */
+
+ table {
+ 	border-collapse: collapse;
+ 	border-spacing: 0;
+ }
+
+ td,
+ th {
+ 	padding: 0;
+ }
+
+/**
+ * Site content holder
+ */
+ .container {
+ 	position: relative;
+ 	width: 100%;
+ 	margin: 0 auto;
+ 	padding: 0 20px;
+ 	box-sizing: border-box;
+	max-width: 1170px;
+ }
+ @media (min-width: 768px) {
+ 	.container{
+ 		width: 90%;
+ 		padding: 0;
+ 	}
+ }
+ 
+/*
+* Clearfix: contain floats
+*
+* For modern browsers
+* 1. The space content is one way to avoid an Opera bug when the
+*    `contenteditable` attribute is included anywhere else in the document.
+*    Otherwise it causes space to appear at the top and bottom of elements
+*    that receive the `clearfix` class.
+* 2. The use of `table` rather than `block` is only necessary if using
+*    `:before` to contain the top-margins of child elements.
+*/
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	/* 1 */
+	display: table;
+	/* 2 */
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+/**
+ * Replaceable image style
+ */
+img.replaceable-image{
+	width:auto;
+	display:block;
+	margin:0 auto;
+}
+
+/**
+ * strip common gap
+ */
+.strip-row {
+	margin-bottom: 75px;
+}
+
+/**
+ * Arrows
+ */
+ 
+ .arrows-wrapper .slick-arrow{
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    cursor: pointer;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+    .arrows-wrapper .nav-left.slick-arrow{
+        left: -15px;
+    }
+    .arrows-wrapper .nav-right.slick-arrow{
+        right: -15px;
+    }
+        .arrows-wrapper .line-one{
+            display: block;
+            width: 35px;
+            height: 35px;
+        }
+            .arrows-wrapper .nav-left .line-one:after{
+                content: '\eb52';
+                font-family: icomoon;
+                font-size: 35px;
+                line-height: 35px;
+            }
+            .arrows-wrapper .nav-right .line-one:after{
+                content: '\eb4f';
+                font-family: icomoon;
+                font-size: 35px;
+                line-height: 35px;
+            }
+
+@media(min-width: 768px){
+
+    .arrows-wrapper .nav-left.slick-arrow{
+        left: -25px;
+    }
+    .arrows-wrapper .nav-right.slick-arrow{
+       right: -25px;
+    }
+
+}
+
+@media(min-width: 1024px){
+
+    .arrows-wrapper .nav-left.slick-arrow{
+        left: -40px;
+    }
+    .arrows-wrapper .nav-right.slick-arrow{
+       right: -40px;
+    }
+        .arrows-wrapper .line-one{
+            width: 45px;
+            height: 45px;
+        }
+            .arrows-wrapper .nav-left .line-one:after{
+                font-size: 45px;
+                line-height: 45px;
+            }
+            .arrows-wrapper .nav-right .line-one:after{
+                font-size: 45px;
+                line-height: 45px;
+            }
+}
+        
+/**
+ * Pagers
+ */
+ 
+.pager-wrapper ul{
+    list-style-type: none;
+}
+    .pager-wrapper li{
+        width: 8px;
+        height: 8px;
+        margin: 0 5px;
+        border-radius: 100%;
+        border-width: 2px;
+        border-style: solid;
+        display: inline-block;
+        cursor: pointer;
+    }
+    .pager-wrapper li.slick-active {
+        border-width: 2px;
+        border-style: solid;
+        cursor: default;
+    }
+.pager-wrapper .slickNumber,
+.pager-wrapper .pager-count{
+    display: none;
+}
+
+
+/**
+ * Link options
+ */
+.link-option-1 .link-wrapper a,
+.link-option-2 .link-wrapper a,
+.link-option-3 .link-wrapper a,
+.link-option-4 .link-wrapper a,
+.link-option-5 .link-wrapper a {
+	text-decoration: underline;
+}
+
+.link-as-button-option-1 .link-wrapper a,
+.link-as-button-option-2 .link-wrapper a,
+.link-as-button-option-3 .link-wrapper a,
+.link-as-button-option-4 .link-wrapper a,
+.link-as-button-option-5 .link-wrapper a {
+    text-transform: uppercase;
+    padding: 7px 11px;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/**
+ * Hide empty elements from javascript
+ */
+.no-content {
+    display: none !important;
+}
+
+/**
+ * Remove <UL> style
+ */
+.list-style-none {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+  resize: vertical;
+  vertical-align: middle;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/**
+ * Label style
+ */
+label {
+    vertical-align: top;
+    display: inline-block;
+}
+/* Removes awkward default styles on some inputs for iOS */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+input[type="date"],
+textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #33C3F0;
+  outline: 0; 
+}
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+input[type="file"],
+input[type="date"],
+textarea,
+select {
+  height: 60px;
+  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box; 
+}
+textarea {
+  min-height: 150px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    display: inline-block;
+    padding: 0 30px;
+    color: #555;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box;
+    -webkit-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0; 
+}
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #33C3F0;
+  border-color: #33C3F0; 
+}
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #1EAEDB;
+  border-color: #1EAEDB; 
+}
+
+.cms-form-holder .cms-form {
+    position: relative;
+    z-index: 1;
+}
+.form-group {
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+.form-group:before,
+.form-group:before {
+  content: " ";
+  display: table;
+}
+.form-group:after {
+	clear: both;
+}
+
+.fb-inner:after,
+.fb-radio-helper:after,
+.fb-checkbox-helper:after {
+  font-family: 'icomoon';
+}
+/* Select and Date */
+.fb-inner input,
+.fb-inner select{
+    padding-right: 25px;
+}
+
+.fb-select-inner select{
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+}
+
+.fb-inner{
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+.fb-inner:after{
+    position: absolute;
+    z-index: 1;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+.fb-select-inner:after{
+    content: '\eb63';
+}
+.fb-date-inner:after{
+    content: "\e92f";
+}
+
+/* Radio and Check boxes */
+.radio label,
+.checkbox label{
+    display: inline-block;
+    padding: 0 0 0 8px;
+    vertical-align: top;
+}
+ .fb-cr{
+    position: relative;
+    padding: 0 0 8px 24px;
+}
+.fb-cr input{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    opacity: 0;
+}
+.fb-helper,
+.fb-cr input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 24px;
+    width: 24px;
+    font-size: 24px;
+}
+.fb-helper{
+    pointer-events: none;
+}
+.fb-checkbox-helper:after {
+    content: "\e942";
+    display: block;
+    line-height: 1;
+}
+.fb-cr input:checked ~ .fb-checkbox-helper:after {
+     content: "\eb72";
+}
+.fb-radio-helper:after {
+    content: "\ebf5";
+    display: block;
+    line-height: 1;
+}
+.fb-cr input:checked ~ .fb-radio-helper:after {
+     content: "\ebf4";
+}
+.fb-cr input:checked ~ .fb-radio-helper:before,
+.fb-cr input:checked ~ .fb-checkbox-helper:before {
+    font-family: 'icomoon';
+	display: block;
+	line-height: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.fb-cr input:checked ~ .fb-radio-helper:before {
+	content: '\ebf5';
+}
+.fb-cr input:checked ~ .fb-checkbox-helper:before {
+	content: "\e942";
+}
+.fb-file-inner:after {
+	content: '';
+	width: calc(100% - 2px);
+	height: calc(100% - 2px);
+	top: 1px;
+	left: 1px;
+	pointer-events: none;
+	-webkit-transform: none;
+	-ms-transform: none;
+	transform: none;
+}
+.fb-file-inner:before {
+	content: '\eb9d';
+	font-family: 'icomoon';
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	z-index: 2;
+	pointer-events: none;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+/* input file */
+.cms-form .fb-file-inner {
+    width: 100%;
+}
+
+.ui-helper-hidden {
+    display: none;
+}
+.ui-helper-hidden-accessible {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.ui-helper-reset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    line-height: 1.3;
+    text-decoration: none;
+    font-size: 100%;
+    list-style: none;
+}
+.ui-helper-clearfix:before,
+.ui-helper-clearfix:after {
+    content: "";
+    display: table;
+    border-collapse: collapse;
+}
+.ui-helper-clearfix:after {
+    clear: both;
+}
+.ui-helper-clearfix {
+    min-height: 0; /* support: IE7 */
+}
+.ui-helper-zfix {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    filter:Alpha(Opacity=0);
+}
+.ui-front {
+    z-index: 100;
+}
+/* Interaction Cues
+----------------------------------*/
+.ui-state-disabled {
+    cursor: default !important;
+}
+/* Icons
+----------------------------------*/
+/* states and images */
+.ui-icon {
+    display: block;
+    text-indent: -99999px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+/* Misc visuals
+----------------------------------*/
+/* Overlays */
+.ui-widget-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.ui-datepicker {
+    padding: .2em .2em 0;
+    display: none;
+}
+.ui-datepicker .ui-datepicker-header {
+    position: relative;
+    padding: .2em 0;
+}
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+    position: absolute;
+    top: 2px;
+    width: 16px;
+    height: 16px;
+    margin-top: -8px;
+    border-radius: 50%;
+}
+.ui-datepicker .ui-datepicker-prev {
+    left: 4px;
+}
+.ui-datepicker .ui-datepicker-next {
+    right: 4px;
+}
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -8px;
+    top: 50%;
+    margin-top: -8px;
+}
+.ui-datepicker .ui-datepicker-title {
+    margin: 0 2.3em;
+    line-height: 1.8em;
+    text-align: center;
+}
+.ui-datepicker .ui-datepicker-title select {
+    font-size: 1em;
+    margin: 1px 0;
+}
+.ui-datepicker select.ui-datepicker-month-year {
+    width: 100%;
+}
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year {
+    width: 49%;
+}
+.ui-datepicker table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 0 .4em;
+}
+.ui-datepicker th {
+    padding: .7em .3em;
+    text-align: center;
+    font-weight: bold;
+    border: 0;
+}
+.ui-datepicker td {
+    border: 0;
+    padding: 1px;
+}
+.ui-datepicker td span,
+.ui-datepicker td a {
+    display: block;
+    padding: .2em;
+    text-align: right;
+    text-decoration: none;
+}
+.ui-datepicker td .ui-state-default {
+    border-style: solid;
+    box-sizing: border-box;
+}
+.ui-datepicker .ui-datepicker-buttonpane {
+    background-image: none;
+    margin: .7em 0 0 0;
+    padding: 0 .2em;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+}
+.ui-datepicker .ui-datepicker-buttonpane button {
+    float: right;
+    margin: .5em .2em .4em;
+    cursor: pointer;
+    padding: .2em .6em .3em .6em;
+    width: auto;
+    overflow: visible;
+}
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+    float: left;
+}
+/* with multiple calendars */
+.ui-datepicker.ui-datepicker-multi {
+    width: auto;
+}
+.ui-datepicker-multi .ui-datepicker-group {
+    float: left;
+}
+.ui-datepicker-multi .ui-datepicker-group table {
+    width: 95%;
+    margin: 0 auto .4em;
+}
+.ui-datepicker-multi-2 .ui-datepicker-group {
+    width: 50%;
+}
+.ui-datepicker-multi-3 .ui-datepicker-group {
+    width: 33.3%;
+}
+.ui-datepicker-multi-4 .ui-datepicker-group {
+    width: 25%;
+}
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header {
+    border-left-width: 0;
+}
+.ui-datepicker-multi .ui-datepicker-buttonpane {
+    clear: left;
+}
+.ui-datepicker-row-break {
+    clear: both;
+    width: 100%;
+    font-size: 0;
+}
+/* RTL support */
+.ui-datepicker-rtl {
+    direction: rtl;
+}
+.ui-datepicker-rtl .ui-datepicker-prev {
+    right: 2px;
+    left: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-next {
+    left: 2px;
+    right: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-prev:hover {
+    right: 1px;
+    left: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-next:hover {
+    left: 1px;
+    right: auto;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane {
+    clear: right;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button {
+    float: left;
+}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current,
+.ui-datepicker-rtl .ui-datepicker-group {
+    float: right;
+}
+.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header,
+.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header {
+    border-right-width: 0;
+    border-left-width: 1px;
+}
+/* states and images */
+.ui-icon {
+    width: 16px;
+    height: 16px;
+}
+.ui-datepicker{
+    border: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+}
+.ui-datepicker {
+    padding: 0;
+    position: relative;
+    z-index: 1;
+    border: 2px solid;
+}
+.ui-datepicker .ui-datepicker-header {
+    border: none;
+    font-weight: normal;
+}
+.ui-datepicker .ui-datepicker-header .ui-state-hover {
+    cursor: pointer;
+}
+.ui-datepicker .ui-datepicker-title {
+    margin-top: .4em;
+    margin-bottom: .3em;
+}
+.ui-datepicker .ui-datepicker-next,
+.ui-datepicker .ui-datepicker-prev {
+    top: 50%;
+    border:none;
+}
+.ui-datepicker .ui-datepicker-next span,
+.ui-datepicker .ui-datepicker-prev span {
+    margin-top: 0;
+    top: 0;
+    font-weight: normal;
+}
+.ui-datepicker table {
+    margin: 0;
+}
+.ui-datepicker th {
+    padding: 1em 0;
+    font-weight: normal;
+    border: none;
+}
+.ui-datepicker td {
+    border: none;
+    padding: 0;
+}
+.ui-datepicker td .ui-state-default {
+    border: none;
+    text-align: center;
+    padding: .5em;
+    margin: 0;
+    font-weight: normal;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+.ui-datepicker .ui-state-disabled  {
+    opacity: 1;
+}
+.ui-datepicker td .ui-state-default,
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next{
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+.ui-datepicker table thead {
+    border-width: 1px 0;
+    border-style: solid;
+}
+.ui-datepicker .ui-datepicker-next:before,
+.ui-datepicker .ui-datepicker-prev:before {
+    font-family: 'icomoon';
+}
+.ui-datepicker .ui-datepicker-next:before {
+    content: "\e9e6";
+}
+.ui-datepicker .ui-datepicker-prev:before {
+    content: "\eb2a";
+}
+.ui-datepicker {
+    font-size: 1em;
+}
+
+/*Title text color*/
+.ui-datepicker .ui-datepicker-title {
+    color: #f9f9f9;
+}
+/*Title day text color*/
+.ui-datepicker th {
+    color: #f9f9f9;
+}
+/*Title day border color*/
+.ui-datepicker table thead {
+    border-color: #fff;
+}
+/*Date default colors*/
+.ui-datepicker td .ui-state-default {
+    color: #efefef;
+}
+/*Date Hover colors*/
+.ui-datepicker td .ui-state-default.ui-state-hover {
+    color: #ffffff;
+    background-color: #36e43c;
+}
+/*Today colors*/
+.ui-datepicker td.ui-datepicker-today .ui-state-default {
+    background-color: #e43636;
+}
+/*Selected Date*/
+.ui-datepicker td .ui-state-default.ui-state-active {
+    background-color: #368be4;
+}
+/*Disable Date*/
+.ui-datepicker .ui-state-disabled .ui-state-default {
+    color: #636363;
+}
+/*Datepicker background color*/
+.ui-datepicker {
+  background-color: #2e3641;
+  border-color: #2e3641;
+}
+.ui-datepicker .ui-datepicker-next:before,
+.ui-datepicker .ui-datepicker-prev:before {
+    color: #ffffff;
+}
+.ui-datepicker td .ui-state-default {
+    background-color: transparent;
+}
+
+/* Form Grid*/
+.cms-form-holder .cms-form .form-group {
+    margin-bottom: 30px;
+}
+
+.cms-form-holder .cms-form .form-group .fb-text-label {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.cms-form .form-group .form-control,
+.cms-form .form-group .radio-group,
+.cms-form .form-group .checkbox-group,
+.cms-form .fb-select-inner,
+.cms-form .fb-date-inner {
+    width: 100%;
+}
+
+.cms-form label.error {
+    color: red;
+    font-size: 0.9em;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    margin-top: 3px;
+    vertical-align: middle;
+    display: block;
+    left: 0;
+    padding: 0;
+}
+.cms-form .fb-captcha label.error {
+    right: 0;
+    left: auto;
+}
+
+/*Buuton alignment*/
+.cms-form .fb-button {
+  text-align: right;
+}
+
+/*reCaptcha alignment*/
+#recaptcha {
+    display: inline-block;
+}
+.cms-form-holder .cms-form .fb-captcha {
+    text-align: right;
+}
+
+
+/**
+ * CMS editor default formats
+ */
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+span.bold {
+  font-weight: bold;
+}
+span.italic {
+  font-style: italic;
+}
+
+span.strikethrough {
+  text-decoration: line-through;
+}
+
+/* 
+CMS editor default formats
+DON'T REMOVE THIS SECTION 
+*/
+
+/**formats**
+
+    "alignleft": {
+        "selector": "p,h1,h2,h3,h4,h5,h6,td,th,div,ul,ol,li,table,img", "classes": "text-left"
+    },
+    "aligncenter": {
+        "selector": "p,h1,h2,h3,h4,h5,h6,td,th,div,ul,ol,li,table,img", "classes": "text-center"
+    },
+    "alignright": {
+        "selector": "p,h1,h2,h3,h4,h5,h6,td,th,div,ul,ol,li,table,img", "classes": "text-right"
+    },
+    "bold": {
+        "inline": "span", "classes": "bold"
+    },
+    "italic": { "inline": "span", "classes": "italic"
+    },
+    "underline": { "inline": "span", "classes": "underline", "exact": true
+    },
+    "strikethrough": { "inline": "span", "classes": "strikethrough"
+    },
+    "Link Options": { "title": "Link Option One", "selector": "a", "classes": "link link-one check-empty-href" },
+    "customformat": { "inline": "span", "styles": { "color": "#00ff00", "fontSize": "20px"
+        }, "attributes": { "title": "My custom format"
+        }, "classes": "example1"
+    }
+
+**formats**/

@@ -1,0 +1,1614 @@
+:root{
+	
+	--color__default-text-color: #4b4342;
+	--color__on-bg-text-color: #fff;
+	
+	--color__default-background-color: #fff;
+	--color__primary-background-color: #0a142d;
+	--color__secondary-background-color: #4b4342;
+	
+    --color__site-background-color: var(--color__default-background-color);
+    
+    --color__df__main-strip-background-color: transparent;
+    --number__df__strip-row-margin: 0 auto 50px;
+    
+    /* start - arrows */
+    --number__df__rotator-arrow-border-width: 0;
+    --number__df__rotator-arrow-border-radius: 100%;
+    --color__df__rotator-arrow-border-color: #4b4342;
+    --color__df__rotator-arrow-background-color: #4b4342;
+    --color__df__rotator-arrow-color: #ffffff;
+    /* end - arrows */
+    
+    /* start - pagers */
+    --number__df__rotator-pager-border-width: 2px;
+    --number__df__rotator-pager-width: 10px;
+    --number__df__rotator-pager-height: 10px;
+    --number__df__rotator-pager-margin: 0 6px;
+    --color__df__rotator-pager-border-color: rgba(250,250,250,0.6);
+    --color__df__rotator-active-pager-border-color: #ffffff;
+    --color__df__rotator-active-pager-background-color: #ffffff;
+    /* end - pagers */
+    
+    /* start - close button */
+    --number__df__close-button-padding: 0 5px;
+    --number__df__close-button-border-width: 1px;
+    --color__df__close-button-icon-color: #fff;
+    --color__df__close-button-border-color: #fff;
+    --color__df__close-button-background-color: rgba(0,0,0,0.2);
+    /* end - close button  */
+    
+    /* start - typography */
+    --number__df__heading-one-margin: 0 auto 35px;
+    --number__df__heading-two-margin: 0 auto 30px;
+    --number__df__heading-three-margin: 0 auto 25px;
+    --number__df__heading-four-margin: 0 auto 25px;
+    --number__df__heading-five-margin: 0 auto 25px;
+    --number__df__heading-six-margin: 0 auto 25px;
+    
+    --number__link-option-one-padding: 0;
+    --color__link-option-one-border-color: transparent;
+    --color__link-option-one-background-color: transparent;
+    --color__on-hover-link-option-one-border-color: transparent;
+    --color__on-hover-link-option-one-background-color: transparent;
+    
+    --number__link-option-two-padding: 0 20px 0 0;
+    --color__link-option-two-border-color: transparent;
+    --color__link-option-two-background-color: transparent;
+    --color__on-hover-link-option-two-border-color: transparent;
+    --color__on-hover-link-option-two-background-color: transparent;
+    
+    --number__link-option-three-padding: 0 25px 0 0;
+    --color__link-option-three-border-color: transparent;
+    --color__link-option-three-background-color: transparent;
+    --color__on-hover-link-option-three-border-color: transparent;
+    --color__on-hover-link-option-three-background-color: transparent;
+    
+    --number__link-as-button-option-one-padding: 15px 25px;
+    --number__link-as-button-option-one-border-width: 1px;
+    --number__link-as-button-option-one-border-radius: 5px;
+    --color__link-as-button-option-one-border-color: #4b4342;
+    --color__link-as-button-option-one-background-color: #4b4342;
+    --color__on-hover-link-as-button-option-one-border-color: #7a3548;
+    --color__on-hover-link-as-button-option-one-background-color: #7a3548;
+    
+    --number__link-as-button-option-two-padding: 20px 30px;
+    --number__link-as-button-option-two-border-width: 1px;
+    --number__link-as-button-option-two-border-radius: 5px;
+    --color__link-as-button-option-two-border-color: #ffffff;
+    --color__link-as-button-option-two-background-color: #ffffff;
+    --color__on-hover-link-as-button-option-two-border-color: #0379BF;
+    --color__on-hover-link-as-button-option-two-background-color: #0379BF;
+    
+    --number__link-as-button-option-three-padding: 8px 18px;
+    --number__link-as-button-option-three-border-width: 1px;
+    --number__link-as-button-option-three-border-radius: 0;
+    --color__link-as-button-option-three-border-color: #c2a945;
+    --color__link-as-button-option-three-background-color: transparent;
+    --color__on-hover-link-as-button-option-three-border-color: #c2a945;
+    --color__on-hover-link-as-button-option-three-background-color: #c2a945;
+    
+    --color__table-row-background-color: #fffbeb;
+    /* end - typography */
+    
+    /* start - forms */
+    --number__df__input-height: 60px;
+    --number__df__textarea-height: 38px;
+    --number__df__input-padding: 6px 10px;
+    --number__df__input-border-width: 1px;
+    --number__df__input-border-radius: 10px;
+    --color__df__input-background-color: transparent;
+    --color__df__input-border-color: #d1d1d1;
+    --color__df__input-icon-color: #4b4342;
+    --color__df__input-on-focus-border-color: #d1d1d1;
+    --number__df__form-main-strip-border-width: 0;
+    --number__df__form-main-strip-container-border-width: 0;
+    --number__df__form-main-strip-intro-content-border-width: 0;
+    --number__df__form-main-strip-form-wrapper-border-width: 0;
+    --number__df__form-main-strip-form-group-border-width: 0;
+    --color__df__form-main-strip-border-color: transparent;
+    --color__df__form-main-strip-background-color: transparent;
+    --color__df__form-main-strip-container-border-color: transparent;
+    --color__df__form-main-strip-container-background-color: transparent;
+    --color__df__form-main-strip-intro-content-border-color: transparent;
+    --color__df__form-main-strip-intro-content-background-color: transparent;
+    --color__df__form-main-strip-form-wrapper-border-color: transparent;
+    --color__df__form-main-strip-form-wrapper-background-color: transparent;
+    --color__df__form-main-strip-form-group-border-color: transparent;
+    --color__df__form-main-strip-form-group-background-color: transparent;
+    --color__df__datepicker-border-color: #e3e3e2;
+	--color__df__datepicker-background-color: #e3e3e2;
+    --color__df__datepicker-table-body-background-color: #fff;
+    --color__df__datepicker-table-heading-color: #fff;
+    --number__df__datepicker-default-padding: 5px 8px;
+    --number__df__datepicker-default-border-radius: 100%;
+    --number__df__datepicker-default-border-width: 1px;
+    --color__df__datepicker-default-border-color: transparent;
+    --color__df__datepicker-default-color: #383838;
+    --color__df__datepicker-default-background-color: transparent;
+    --color__df__datepicker-disabled-border-color: transparent;
+    --color__df__datepicker-disabled-color: #a6a6a6;
+    --color__df__datepicker-disabled-background-color: transparent;
+    --color__df__datepicker-table-heading-background-color: #c2a945;
+    --color__df__datepicker-today-background-color: #007ea7;
+    --color__df__datepicker-today-color: #fff;
+    --color__df__datepicker-highlight-background-color: #00a8e8;
+	--color__df__datepicker-highlight-color: #fff;
+    /* end - forms */
+    
+    /* start - r2g header - cse */ 
+    --number__df__header-height: 62px;
+    --number__df__header-fixed-height: 62px;
+    --number__df__header-fixed-shadow-border: 0px 10px 30px;
+    --number__df__header-branding-width: 60px;
+    --number__df__header-branding-height: auto;
+    --number__df__header-fixed-branding-width: 60px;
+    --number__df__header-fixed-branding-height: auto;
+    --number__df__header-branding-margin: 1px auto;
+    --number__df__header-more-menu-top: 62px;   
+    --number__df__header-bottom-bar-primary-button-padding: 15px 25px;
+    --color__df__header-background-color: var(--color__default-background-color);
+    --color__df__header-fixed-background-color: var(--color__default-background-color);
+    --color__df__header-fixed-shadow-color: rgba(0, 23, 31, 0.3);
+    --color__df__header-main-navigation-active-border-color: #4b4342;
+    --color__df__header-fixed-main-navigation-active-border-color: #4b4342;
+    --color__df__header-main-navigation-drop-down-arrow-color: #fff;
+    --color__df__header-fixed-main-navigation-drop-down-arrow-color: #333;
+    --color__df__header-main-navigation-active-drop-down-arrow-color: var(--color__df__header-main-navigation-active-border-color);
+    --color__df__header-fixed-main-navigation-active-drop-down-arrow-color: var(--color__df__header-fixed-main-navigation-active-border-color);
+    --color__df__header-submenu-background-color: rgba(0,0,0,0.8);
+    --color__df__header-fixed-submenu-background-color: #fff;
+    --color__df__header-submenu-border-color: rgba(0,0,0,0.8);
+    --color__df__header-fixed-submenu-border-color: #fff;
+    --color__df__header-bottom-bar-primary-button-border-color: #4b4342;
+    --color__df__header-bottom-bar-primary-button-background-color: #4b4342;
+    --color__df__header-bottom-bar-primary-button-on-hover-border-color: #7a3548;
+    --color__df__header-bottom-bar-primary-button-on-hover-background-color: #7a3548;
+    --color__df__header-hamburger-icon-color: #333;
+    --color__df__header-fixed-hamburger-icon-color: #333;
+    --color__df__header-more-menu-close-icon-color: #333;
+    --color__df__header-more-menu-background-color: var(--color__secondary-background-color);
+    --color__df__header-more-menu-border-color: var(--color__secondary-background-color);
+    --color__df__header-more-menu-drop-down-arrow-color: #333;
+    --color__df__header-more-menu-active-drop-down-arrow-color: #c2a945;
+    --color__df__header-more-menu-scrollbar-dragger-background-color: rgba(0, 0, 0, 0.6);
+    --color__df__header-more-menu-scrollbar-background-color: rgba(0,0,0,.4);
+    /* end - r2g header - cse */
+    
+    /* start - r2g main visual - cse */
+    --number__df__main-visual-margin: 62px 0 30px;
+    --number__df__main-visual-slogan-wrapper-border-width: 0;
+    --number__df__main-visual-slogan-wrapper-container-border-width: 0;
+    --number__df__main-visual-pager-border-width: 0;
+    --number__df__main-visual-pager-border-radius: 10px;
+    --number__df__main-visual-pager-width: 20px;
+    --number__df__main-visual-pager-height: 4px;
+    --number__df__main-visual-pager-margin: 0 2px;
+    --color__df__main-visual-video-icon-color: #fff;
+    --color__df__main-visual-slogan-wrapper-border-color: transparent;
+    --color__df__main-visual-slogan-wrapper-background-color: #46463e;
+    --color__df__main-visual-container-border-color: transparent;
+    --color__df__main-visual-container-background-color: transparent;
+    --color__df__main-visual-arrow-color: #fff;
+    --color__df__main-visual-arrow-border-color: transparent;
+    --color__df__main-visual-arrow-background-color: transparent;
+    --color__df__main-visual-pager-border-color: transparent;
+    --color__df__main-visual-pager-background-color: rgba(255, 255, 255, 1);
+    --color__df__main-visual-active-pager-border-color: transparent;
+    --color__df__main-visual-active-pager-background-color: #f98193cc;
+    /* end - r2g main visual - cse */
+    
+    /* start - r2g breadcrumb - cse */
+    --number__df__breadcrumb-border-width: 0;
+    --number__df__breadcrumb-margin: 0 0 30px;
+    --number__df__breadcrumb-container-border-width: 0;
+    --number__df__breadcrumb-breadcrumb-wrapper-border-width: 0;
+    --color__df__breadcrumb-border-color: transparent;
+    --color__df__breadcrumb-background-color: transparent;
+    --color__df__breadcrumb-container-border-color: transparent;
+    --color__df__breadcrumb-container-background-color: transparent;
+    --color__df__breadcrumb-breadcrumb-wrapper-border-color: transparent;
+    --color__df__breadcrumb-breadcrumb-wrapper-background-color: transparent;
+    /* end - r2g breadcrumb - cse */
+    
+    /* start - xbox main strip */
+    --number__df__xbox-main-strip-border-width: 0;
+    --number__df__xbox-main-strip-container-border-width: 0;
+    --number__df__xbox-main-strip-intro-content-border-width: 0;
+    --number__df__xbox-main-strip-xbox-wrapper-border-width: 0;
+    --number__df__xbox-main-strip-image-wrapper-border-width: 0;
+    --number__df__xbox-main-strip-flex-wrapper-border-width: 0;
+    --number__df__xbox-main-strip-content-wrapper-border-width: 0;
+    --color__df__xbox-main-strip-background-color: transparent;
+    --color__df__xbox-main-strip-border-color: transparent;
+    --color__df__xbox-main-strip-container-background-color: transparent;
+    --color__df__xbox-main-strip-container-border-color: transparent;
+    --color__df__xbox-main-strip-intro-content-background-color: transparent;
+    --color__df__xbox-main-strip-intro-content-border-color: transparent;
+    --color__df__xbox-main-strip-xbox-wrapper-background-color: transparent;
+    --color__df__xbox-main-strip-xbox-wrapper-border-color: transparent;
+    --color__df__xbox-main-strip-image-wrapper-background-color: transparent;
+    --color__df__xbox-main-strip-image-wrapper-border-color: transparent;
+    --color__df__xbox-main-strip-flex-wrapper-background-color: transparent;
+    --color__df__xbox-main-strip-flex-wrapper-border-color: var(--color__primary-background-color);
+    --color__df__xbox-main-strip-content-wrapper-background-color: transparent;
+    --color__df__xbox-main-strip-content-wrapper-border-color: transparent;
+    /* end - xbox main strip -cse */
+    
+    /* start - xbox sub component - cse */
+    --number__df__xbox-sub-border-width: 0;
+    --number__df__xbox-sub-intro-wrapper-border-width: 0;
+    --number__df__xbox-sub-xbox-wrapper-border-width: 0;
+    --number__df__xbox-sub-image-wrapper-border-width: 0;
+    --number__df__xbox-sub-flex-wrapper-border-width: 0;
+    --number__df__xbox-sub-content-wrapper-border-width: 0;
+    --color__df__xbox-sub-border-color: transparent;
+    --color__df__xbox-sub-background-color: transparent;
+    --color__df__xbox-sub-intro-wrapper-border-color: transparent;
+    --color__df__xbox-sub-intro-wrapper-background-color: transparent;
+    --color__df__xbox-sub-xbox-wrapper-border-color: transparent;
+    --color__df__xbox-sub-xbox-wrapper-background-color: transparent;
+    --color__df__xbox-sub-image-wrapper-border-color: transparent;
+    --color__df__xbox-sub-image-wrapper-background-color: transparent;
+    --color__df__xbox-sub-flex-wrapper-border-color: transparent;
+    --color__df__xbox-sub-flex-wrapper-background-color: transparent;
+    --color__df__xbox-sub-content-wrapper-border-color: transparent;
+    --color__df__xbox-sub-content-wrapper-background-color: transparent;
+    /* end - xbox sub component - cse */
+    
+    /* start - r2g content main strip -cse */
+    --number__df__main-content-strip-border-width: 0;
+    --number__df__main-content-strip-container-border-width: 0;
+    --number__df__main-content-strip-content-wrapper-border-width: 0;
+    --color__df__main-content-strip-border-color: transparent;
+    --color__df__main-content-strip-background-color: transparent;
+    --color__df__main-content-strip-container-border-color: transparent;
+    --color__df__main-content-strip-container-background-color: transparent;
+    --color__df__main-content-strip-content-wrapper-border-color: transparent;
+    --color__df__main-content-strip-content-wrapper-background-color: transparent;
+    /* end - r2g content main strip */
+    
+    /* start - r2g rotator main strip */
+    --number__df__rotator-main-strip-border-width: 0;
+    --number__df__rotator-main-strip-container-border-width: 0;
+    --number__df__rotator-main-strip-intro-content-border-width: 0;
+    --number__df__rotator-main-strip-rotator-wrapper-border-width: 0;
+    --number__df__rotator-main-strip-bottom-content-border-width: 0;
+    --color__df__rotator-main-strip-border-color: transparent;
+    --color__df__rotator-main-strip-background-color: transparent;
+    --color__df__rotator-main-strip-container-border-color: transparent;
+    --color__df__rotator-main-strip-container-background-color: transparent;
+    --color__df__rotator-main-strip-intro-content-border-color: transparent;
+    --color__df__rotator-main-strip-intro-content-background-color: transparent;
+    --color__df__rotator-main-strip-rotator-wrapper-border-color: transparent;
+    --color__df__rotator-main-strip-rotator-wrapper-background-color: transparent;
+    --color__df__rotator-main-strip-bottom-content-border-color: transparent;
+    --color__df__rotator-main-strip-bottom-content-background-color: transparent;
+    /* end - r2g rotator main strip */
+    
+    /* start - r2g tabs main strip - cse */
+    --number__df__tab-mainstrip-border-width: 0;
+    --number__df__tab-mainstrip-container-border-width: 0;
+    --number__df__tab-mainstrip-intro-content-border-width: 0;
+    --number__df__tab-mainstrip-tabs-wrapper-border-width: 0;
+    --number__df__tab-mainstrip-accordion-title-border-width: 0 0 1px;
+    --number__df__tab-mainstrip-accordion-title-content-border-width: 0;
+    --number__df__tab-mainstrip-bottom-content-border-width: 0;
+    --color__df__tab-mainstrip-border-color: transparent;
+    --color__df__tab-mainstrip-background-color: transparent;
+    --color__df__tab-mainstrip-container-border-color: transparent;
+    --color__df__tab-mainstrip-container-background-color: transparent;
+    --color__df__tab-mainstrip-intro-content-border-color: transparent;
+    --color__df__tab-mainstrip-intro-content-background-color: transparent;
+    --color__df__tab-mainstrip-tabs-wrapper-border-color: transparent;
+    --color__df__tab-mainstrip-tabs-wrapper-background-color: transparent;
+    --color__df__tab-mainstrip-accordion-title-border-color: #7a3548;
+    --color__df__tab-mainstrip-accordion-title-background-color: transparent;
+    --color__df__tab-mainstrip-accordion-title-content-border-color: transparent;
+    --color__df__tab-mainstrip-accordion-title-content-background-color: transparent;
+    --color__df__tab-mainstrip-bottom-content-border-color: transparent;
+    --color__df__tab-mainstrip-bottom-content-background-color: transparent;
+    /* end - r2g tabs main strip - cse */
+    
+    /* start - r2g flex xlist main strip - cse */
+    --number__df__r2g-flex-xlist-main-strip-border-width: 0;
+    --number__df__r2g-flex-xlist-main-strip-container-border-width: 0;
+    --number__df__r2g-flex-xlist-main-strip-intro-content-border-width: 0;
+    --number__df__r2g-flex-xlist-main-strip-xlist-wrapper-border-width: 0;
+	--number__df__r2g-flex-xlist-sub-xlist-item-gap: 20px;
+    --number__df__r2g-flex-xlist-main-strip-bottom-content-border-width: 0;
+    --color__df__r2g-flex-xlist-main-strip-border-color: transparent;
+    --color__df__r2g-flex-xlist-main-strip-background-color: transparent;
+    --color__df__r2g-flex-xlist-main-strip-container-border-color: transparent;
+    --color__df__r2g-flex-xlist-main-strip-container-background-color: transparent;
+    --color__df__r2g-flex-xlist-main-strip-intro-content-border-color: transparent;
+    --color__df__r2g-flex-xlist-main-strip-intro-content-background-color: transparent;
+    --color__df__r2g-flex-xlist-main-strip-xlist-wrapper-border-color: transparent;
+    --color__df__r2g-flex-xlist-main-strip-xlist-wrapper-background-color: transparent;
+    --color__df__r2g-flex-xlist-main-strip-bottom-content-border-color: transparent;
+    --color__df__r2g-flex-xlist-main-strip-bottom-content-background-color: transparent;
+    /* end - r2g flex xlist main strip - cse */
+	
+	/* start - r2g flex xlist sub component - cse */
+	--number__df__r2g-flex-xlist-sub-border-width: 0;
+	--number__df__r2g-flex-xlist-sub-intro-content-border-width: 0;
+	--number__df__r2g-flex-xlist-sub-xlist-wrapper-border-width: 0;
+	--number__df__r2g-flex-xlist-sub-bottom-content-border-width: 0;
+	--color__df__r2g-flex-xlist-sub-border-color: transparent;
+	--color__df__r2g-flex-xlist-sub-background-color: transparent;
+	--color__df__r2g-flex-xlist-sub-intro-content-border-color: transparent;
+	--color__df__r2g-flex-xlist-sub-intro-content-background-color: transparent;
+	--color__df__r2g-flex-xlist-sub-xlist-wrapper-border-color: transparent;
+	--color__df__r2g-flex-xlist-sub-xlist-wrapper-background-color: transparent;
+	--color__df__r2g-flex-xlist-sub-bottom-content-border-color: transparent;
+	--color__df__r2g-flex-xlist-sub-bottom-content-background-color: transparent;
+	/* end - r2g flex xlist sub component - cse */
+    
+    /* start - r2g content sub - cse */
+    --number__df__content-sub-border-width: 0;
+    --number__df__content-sub-content-wrapper-border-width: 0;
+    --color__df__content-sub-border-color: #efefef;
+    --color__df__content-sub-background-color: transparent;
+    --color__df__content-sub-content-wrapper-border-color: transparent;
+    --color__df__content-sub-content-wrapper-background-color: transparent;
+    /* end - r2g content sub - cse */
+    
+    /* start - r2g xlist grid main strip - cse */
+    --number__df__xlist-grid-main-strip-border-width: 0;
+    --number__df__xlist-grid-main-strip-container-border-width: 0;
+    --number__df__xlist-grid-main-strip-intro-content-border-width: 0;
+    --number__df__xlist-grid-main-strip-xlist-wrapper-border-width: 0;
+    --color__df__xlist-grid-main-strip-border-color: transparent;
+    --color__df__xlist-grid-main-strip-background-color: transparent;
+    --color__df__xlist-grid-main-strip-container-border-color: transparent;
+    --color__df__xlist-grid-main-strip-container-background-color: transparent;
+    --color__df__xlist-grid-main-strip-intro-content-border-color: transparent;
+    --color__df__xlist-grid-main-strip-intro-content-background-color: transparent;
+    --color__df__xlist-grid-main-strip-xlist-wrapper-border-color: transparent;
+    --color__df__xlist-grid-main-strip-xlist-wrapper-background-color: transparent;
+    /* end - r2g xlist grid main strip - cse */
+    
+    /* start - r2g rotator sub component - cse */
+    --number__df__rotator-sub-component-border-width: 0;
+    --number__df__rotator-sub-component-intro-content-border-width: 0;
+    --number__df__rotator-sub-component-rotator-wrapper-border-width: 0;
+    --number__df__rotator-sub-component-slick-slide-border-width: 0;
+    --number__df__rotator-sub-component-slick-slide-margin-left: 10px;
+    --number__df__rotator-sub-component-slick-slide-margin-right: 10px;
+    --number__df__rotator-sub-component-bottom-content-border-width: 0;
+    --color__df__rotator-sub-component-border-color: transparent;
+    --color__df__rotator-sub-component-background-color: transparent;
+    --color__df__rotator-sub-component-intro-content-border-color: transparent;
+    --color__df__rotator-sub-component-intro-content-background-color: transparent;
+    --color__df__rotator-sub-component-rotator-wrapper-border-color: transparent;
+    --color__df__rotator-sub-component-rotator-wrapper-background-color: transparent;
+    --color__df__rotator-sub-component-slick-slide-border-color: transparent;
+    --color__df__rotator-sub-component-slick-slide-background-color: transparent;
+    --color__df__rotator-sub-component-bottom-content-border-color: transparent;
+    --color__df__rotator-sub-component-bottom-content-background-color: transparent;
+    /* end - r2g rotator sub component - cse */
+    
+    /* start - r2g accordion main strip - cse */
+    --number__df__accordion-main-strip-border-width: 0;
+    --number__df__accordion-main-strip-container-border-width: 0;
+    --number__df__accordion-main-strip-intro-content-border-width: 0;
+    --number__df__accordion-main-strip-accordion-wrapper-border-width: 0;
+    --number__df__accordion-main-strip-accordion-title-border-width: 0 0 1px;
+    --number__df__accordion-main-strip-accordion-content-wrapper-border-width: 0;
+    --color__df__accordion-main-strip-border-color: transparent;
+    --color__df__accordion-main-strip-background-color: transparent;
+    --color__df__accordion-main-strip-container-border-color: transparent;
+    --color__df__accordion-main-strip-container-background-color: transparent;
+    --color__df__accordion-main-strip-intro-content-border-color: transparent;
+    --color__df__accordion-main-strip-intro-content-background-color: transparent;
+    --color__df__accordion-main-strip-accordion-wrapper-border-color: transparent;
+    --color__df__accordion-main-strip-accordion-wrapper-background-color: transparent;
+    --color__df__accordion-main-strip-accordion-title-border-color: #aa8235;
+    --color__df__accordion-main-strip-accordion-title-background-color: transparent;
+    --color__df__accordion-main-strip-accordion-content-wrapper-border-color: transparent;
+    --color__df__accordion-main-strip-accordion-content-wrapper-background-color: transparent;
+    /* end - r2g accordion main strip - cse */
+    
+    /* start - r2g expandable xlist main strip - cse */
+    --number__df__expandable-xlist-border-width: 0;
+    --number__df__expandable-xlist-main-content-wrapper-border-width: 0;
+    --number__df__expandable-xlist-main-content-border-width: 0;
+    --number__df__expandable-xlist-panel-wrapper-border-width: 0;
+    --number__df__expandable-xlist-panel-item-border-width: 0;
+    --number__df__expandable-xlist-intro-content-border-width: 0;
+    --number__df__expandable-xlist-full-content-border-width: 0;
+    --color__df__expandable-xlist-border-color: transparent;
+    --color__df__expandable-xlist-background-color: #f9f9f9;
+    --color__df__expandable-xlist-main-content-wrapper-border-color: transparent;
+    --color__df__expandable-xlist-main-content-wrapper-background-color: transparent;
+    --color__df__expandable-xlist-main-content-border-color: transparent;
+    --color__df__expandable-xlist-main-content-background-color: transparent;
+    --color__df__expandable-xlist-panel-wrapper-border-color: transparent;
+    --color__df__expandable-xlist-panel-wrapper-background-color: transparent;
+    --color__df__expandable-xlist-panel-item-border-color: transparent;
+	--color__df__expandable-xlist-panel-item-background-color: transparent;
+	--color__df__expandable-xlist-intro-content-border-color: transparent;
+    --color__df__expandable-xlist-intro-content-background-color: transparent;
+    --color__df__expandable-xlist-full-content-border-color: transparent;
+    --color__df__expandable-xlist-full-content-background-color: transparent;
+    --color__df__expandable-xlist-arrow-background-color: transparent;
+    --color__df__expandable-xlist-arrow-color: #a7a7a7;
+    /* end - r2g expandable xlist main strip - cse */
+    
+    /* start - r2g gallery main strip - cse */
+    --number__df__gallery-main-strip-border-width: 0;
+    --number__df__gallery-main-strip-container-border-width: 0;
+    --number__df__gallery-main-strip-intro-content-border-width: 0;
+    --number__df__gallery-main-strip-xlist-wrapper-border-width: 0;
+    --number__df__gallery-main-strip-item-border-width: 0;
+    --color__df__gallery-main-strip-border-color: transparent;
+    --color__df__gallery-main-strip-background-color: transparent;
+    --color__df__gallery-main-strip-container-border-color: transparent;
+    --color__df__gallery-main-strip-container-background-color: transparent;
+    --color__df__gallery-main-strip-intro-content-border-color: transparent;
+    --color__df__gallery-main-strip-intro-content-background-color: transparent;
+    --color__df__gallery-main-strip-xlist-wrapper-border-color: transparent;
+    --color__df__gallery-main-strip-xlist-wrapper-background-color: transparent;
+    --color__df__gallery-main-strip-item-border-color: transparent;
+    --color__df__gallery-main-strip-item-background-color: transparent;
+    --color__df__gallery-main-strip-download-icon-color: #b49006;
+    --color__df__gallery-main-strip-download-icon-border-color: #fff;
+    --color__df__gallery-main-strip-download-icon-background-color: #fff;
+    /* end - r2g gallery main strip - cse */
+    
+    /* start - r2g googlemap main strip */
+    --color__df__googlemap-main-strip-border-color: transparent;
+    --color__df__googlemap-main-strip-background-color: transparent;
+    --color__df__googlemap-main-strip-intro-content-border-color: transparent;
+    --color__df__googlemap-main-strip-intro-content-background-color: transparent;
+    --color__df__googlemap-main-strip-category-wrapper-border-color: transparent;
+    --color__df__googlemap-main-strip-category-wrapper-background-color: transparent;
+    --color__df__googlemap-main-strip-content-wrapper-border-color: transparent;
+    --color__df__googlemap-main-strip-content-wrapper-background-color: transparent;
+    --color__df__googlemap-main-strip-map-wrapper-border-color: transparent;
+    /* end - r2g googlemap main strip */
+    
+    /* start - r2g horizontal menu main strip */
+    --number__df__horizontal-menu-menu-wrapper-padding: 20px 0;
+    --number__df__horizontal-menu-menu-inner-wrapper-padding: 0 40px;
+    --number__df__horizontal-menu-menu-item-link-padding: 5px 0;
+    --color__df__horizontal-menu-border-color: transparent;
+    --color__df__horizontal-menu-background-color: transparent;
+    --color__df__horizontal-menu-container-border-color: transparent;
+    --color__df__horizontal-container-menu-background-color: transparent;
+    --color__df__horizontal-menu-menu-wrapper-border-color: transparent;
+    --color__df__horizontal-menu-wrapper-menu-background-color: transparent;
+    --color__df__horizontal-menu-menu-inner-wrapper-border-color: transparent;
+    --color__df__horizontal-menu-inner-wrapper-menu-background-color: transparent;
+    --color__df__horizontal-menu-menu-item-border-color: transparent;
+    --color__df__horizontal-menu-menu-item-background-color: transparent;
+    --color__df__horizontal-menu-menu-item-link-border-color: transparent;
+    --color__df__horizontal-menu-menu-item-link-background-color: transparent;
+    /* end - r2g horizontal menu main strip */
+    
+    /* start - r2g accordion sub component - cse */
+    --number__df__accordion-sub-border-width: 0;
+    --number__df__accordion-sub-intro-content-border-width: 0;
+    --number__df__accordion-sub-accordion-wrapper-border-width: 0;
+    --number__df__accordion-sub-accordion-title-border-width: 0 0 1px;
+    --number__df__accordion-sub-accordion-content-wrapper-border-width: 0;
+    --color__df__accordion-sub-border-color: transparent;
+    --color__df__accordion-sub-background-color: transparent;
+    --color__df__accordion-sub-intro-content-border-color: transparent;
+    --color__df__accordion-sub-intro-content-background-color: transparent;
+    --color__df__accordion-sub-accordion-wrapper-border-color: transparent;
+    --color__df__accordion-sub-accordion-wrapper-background-color: transparent;
+    --color__df__accordion-sub-accordion-title-border-color: #aa8235;
+    --color__df__accordion-sub-accordion-title-background-color: transparent;
+    --color__df__accordion-sub-accordion-content-wrapper-border-color: transparent;
+    --color__df__accordion-sub-accordion-content-wrapper-background-color: transparent;
+    /* end - r2g accordion sub component - cse */
+    
+    /* start - r2g form sub component - cse */
+    --number__df__form-sub-border-width: 0;
+    --number__df__form-sub-intro-content-border-width: 0;
+    --number__df__form-sub-form-wrapper-border-width: 0;
+    --number__df__form-sub-form-group-border-width: 0;
+    --color__df__form-sub-border-color: transparent;
+    --color__df__form-sub-background-color: transparent;
+    --color__df__form-sub-intro-content-border-color: transparent;
+    --color__df__form-sub-intro-content-background-color: transparent;
+    --color__df__form-sub-form-wrapper-border-color: transparent;
+    --color__df__form-sub-form-wrapper-background-color: transparent;
+    --color__df__form-sub-form-group-border-color: transparent;
+    --color__df__form-sub-form-group-background-color: transparent;
+    /* end - r2g form sub component - cse */
+    
+    /* start - r2g cookie */
+    --number__df__cookie-border-width: 0;
+    --number__df__cookie-wrapper-border-width: 0;
+    --number__df__cookie-content-wrapper-border-width: 0;
+    --number__df__cookie-button-wrapper-border-width: 0;
+    --color__df__cookie-border-color: transparent;
+    --color__df__cookie-background-color: rgb(193, 192, 192);
+    --color__df__cookie-wrapper-border-color: transparent;
+    --color__df__cookie-wrapper-background-color: transparent;
+    --color__df__cookie-content-wrapper-border-color: transparent;
+    --color__df__cookie-content-wrapper-background-color: transparent;
+    --color__df__cookie-button-wrapper-border-color: transparent;
+    --color__df__cookie-button-wrapper-background-color: transparent;
+    /* end - r2g cookie */
+    
+    /* start - r2g footer - cse */
+    --number__df__footer-border-width: 0;
+    --number__df__footer-items-wrapper-border-width: 0;
+    --number__df__footer-item-border-width: 0;
+    --number__df__footer-copyright-border-width: 1px 0 0 0;
+    --number__df__footer-input-border-width: 1px;
+    --number__df__footer-input-height: 38px;
+    --number__df__footer-button-padding: 0 15px;
+    --color__df__footer-input-border-color: #fff;
+    --color__df__footer-input-background-color: #fff;
+    --color__footer-background-color: #292929;
+    --color__footer-border-color: #292929;
+    --color__footer-items-wrapper-background-color: transparent;
+    --color__footer-items-wrapper-border-color: transparent;
+    --color__footer-item-background-color: transparent;
+    --color__footer-item-border-color: transparent;
+    --color__footer-copyright-background-color: #292929;
+    --color__footer-copyright-border-color: #292929;
+    /* end - r2g footer - cse */
+}
+
+/*///////////////////////////////////////*/
+/* START - MUST HAVE CSS */
+/*///////////////////////////////////////*/
+
+    /* Start - Typography */
+    html{
+        font-size: 10px;
+    }
+    body {
+        font-family: "ABeeZee", sans-serif;
+        font-size: 1.7rem;
+        line-height: 2.9rem;
+        color: var(--color__default-text-color);
+        font-weight: 400;
+        background-color: var(--color__site-background-color);
+    }
+    h1{
+        font-family: "Merienda", cursive;
+        font-size: 3.4rem;
+        line-height: 4.6rem;
+        font-weight: 700;
+        color: var(--color__default-text-color);
+        text-transform: uppercase;
+        margin: var(--number__df__heading-one-margin);
+    }
+    h2{
+        font-family: "Merienda", cursive;
+        font-size: 3.4rem;
+        line-height: 4.6rem;
+        font-weight: 400;
+        color: var(--color__default-text-color);
+        text-transform: uppercase;
+        margin: var(--number__df__heading-two-margin);
+    }
+    h3{
+        font-family: "Merienda", cursive;
+        font-size: 2.5rem;
+        line-height: 3rem;
+        font-weight: 400;
+        color: var(--color__default-text-color);
+        margin: var(--number__df__heading-three-margin);
+    }
+    h4{
+        font-family: "Merienda", cursive;
+        font-size: 2rem;
+        line-height: 2.5rem;
+        font-weight: 400;
+        color: var(--color__default-text-color);
+        margin: var(--number__df__heading-four-margin);
+    }
+    h5{
+        font-family: "Merienda", cursive;
+        font-size: 2rem;
+        line-height: 2.5rem;
+        font-weight: 400;
+        color: var(--color__default-text-color);
+        margin: var(--number__df__heading-five-margin);
+    }
+    h6{
+        font-family: "Merienda", cursive;
+        font-size: 1.7rem;
+        line-height: 2.2rem;
+        font-weight: 400;
+        color: var(--color__default-text-color);
+        margin: var(--number__df__heading-six-margin);
+    }
+    a{
+        color: #7a3548;
+    }
+    a:hover{
+        color: #7a3548;
+    }
+    button, 
+    input, 
+    optgroup, 
+    select, 
+    textarea{
+        font-family: 'Inter', sans-serif;
+        font-size: 1.6rem;
+        line-height: 2rem;
+        font-weight: 400;
+        color: #D2D1E5;
+        text-decoration: none;
+    }
+    label{
+        font-family: 'Inter', sans-serif;
+        font-size: 1.4rem;
+        font-weight: 300;
+        color: var(--color__default-text-color);
+        text-decoration: none;
+    }
+	
+		/* Start - On Bg Typography */
+			.on-bg h1{
+				color: var(--color__on-bg-text-color);
+			}
+			.on-bg h2{
+				color: var(--color__on-bg-text-color);
+			}
+			.on-bg h3{
+				color: var(--color__on-bg-text-color);
+			}
+			.on-bg h4{
+				color: var(--color__on-bg-text-color);
+			}
+			.on-bg h5{
+				color: var(--color__on-bg-text-color);
+			}
+			.on-bg h6{
+				color: var(--color__on-bg-text-color);
+			}
+			.on-bg p, .on-bg li{
+				color: var(--color__on-bg-text-color);
+			}
+			.on-bg a{
+				color: #b60655;
+			}
+			.on-bg a:hover{
+				color: #fff;
+			}
+			.on-bg button, 
+			.on-bg input, 
+			.on-bg optgroup, 
+			.on-bg select, 
+			.on-bg textarea{
+				color: var(--color__on-bg-text-color);
+			}
+			.on-bg label{
+				color: var(--color__on-bg-text-color);
+			}
+		/* End - On Bg Typography */
+		
+    /* End - Typography */
+    
+    .intro-content ul,
+    .content-wrapper ul {
+        padding: 0;
+        list-style-type: none;
+    }
+    .intro-content ul > li,
+    .content-wrapper ul > li {
+        margin: 0 0 10px;
+        padding-left: 20px;
+        position: relative;
+    }
+    .intro-content ul > li:before,
+    .content-wrapper ul > li:before {
+        content: "\eb0e";
+        font-family: 'icomoon';
+        width: 8px;
+        height: 8px;
+        display: block;
+        color: #0379BF;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .intro-content ol,
+    .content-wrapper ol {
+        padding-left: 0;
+        list-style-position: inside;
+    }
+    .intro-content ol > li,
+    .content-wrapper ol > li{
+        margin: 0 0 8px;
+    }
+    
+    .strip-row{
+        margin: var(--number__df__strip-row-margin);
+        background-color: var(--color__df__main-strip-background-color);
+    }
+    .r2g-breadcrumb{
+        margin: var(--number__df__breadcrumb-margin);
+    }
+    
+    /* start - r2g header - cse */ 
+    
+    .r2g-header .top-bar{
+        font-family: "Merienda", cursive;
+        font-size: 1.4rem;
+        line-height: 1.5;
+        color: #00171F;
+    }
+    .r2g-header .top-bar a{
+        font-family: "Merienda", cursive;
+        font-size: 1.4rem;
+        line-height: 1.5;
+        color: #00171F;
+        text-decoration: none;
+    }
+    .r2g-header .top-bar a:hover{
+        color: #7a3548;
+    }
+    .r2g-header .top-bar .active a{
+        color: #7a3548;
+    }
+    
+    .r2g-header .main-menu a{
+        font-family: "Merienda", cursive;
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+        color: #00171F;
+        text-transform: capitalize;
+        text-decoration: none;
+    }
+    .r2g-header .main-menu a:hover{
+        color: #7a3548;
+    }
+    .r2g-header .main-menu .active{
+        color: #7a3548;
+    }
+    
+    .r2g-header.header-fixed .main-menu a{
+        color: #00171F;
+    }
+    .r2g-header.header-fixed .main-menu .active{
+        color: #7a3548;
+    }
+    .r2g-header.header-fixed .main-menu a:hover{
+        color: #7a3548;
+    }
+    .r2g-header.header-fixed .main-menu .active > a{
+        color: #7a3548;
+    }
+    
+    /* end - r2g header - cse */ 
+    
+    /* start - arrows */
+    
+    .arrows-wrapper .slick-arrow{
+        position: absolute;
+        z-index: 5;
+        top: 50%;
+        cursor: pointer;
+        border-width: var(--number__df__rotator-arrow-border-width);
+        border-radius: var(--number__df__rotator-arrow-border-radius);
+        border-color: var(--color__df__rotator-arrow-border-color);
+        background-color: var(--color__df__rotator-arrow-background-color);
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+        .arrows-wrapper .nav-left.slick-arrow{
+            left: 0;
+        }
+        .arrows-wrapper .nav-right.slick-arrow{
+            right: 0;
+        }
+            .arrows-wrapper .line-one{
+                display: block;
+                width: 40px;
+				height: 40px;
+                color: var(--color__df__rotator-arrow-color);
+            }
+                .arrows-wrapper .nav-left .line-one:after{
+                    font-family: icomoon;
+                    font-size: 25px;
+					line-height: 40px;
+					padding: 0 8px;
+                }
+                .arrows-wrapper .nav-right .line-one:after{
+                    font-family: icomoon;
+                    font-size: 25px;
+					line-height: 40px;
+					padding: 0 8px;
+                }
+
+    /* end - arrows */
+    
+    /* start - pagers */
+    .pager-wrapper ul{
+        list-style-type: none;
+    }
+        .pager-wrapper li{
+            width: var(--number__df__rotator-pager-width);
+            height: var(--number__df__rotator-pager-height);
+            margin: var(--number__df__rotator-pager-margin);
+            border-width: var(--number__df__rotator-pager-border-width);
+            border-color: var(--color__df__rotator-pager-border-color);
+            border-style: solid;
+            display: inline-block;
+            cursor: pointer;
+        }
+        .pager-wrapper li.slick-active{
+            border-width: 2px;
+            border-style: solid;
+            cursor: default;
+            border-color: var(--color__df__rotator-active-pager-border-color);
+            background-color: var(--color__df__rotator-active-pager-background-color);
+        }
+        .thumb-wrapper .slick-current .rotatorThumbs{
+            border-width: var(--number__df__rotator-pager-border-width);
+            border-color: var(--color__df__rotator-active-pager-border-color);
+            background-color: var(--color__df__rotator-active-pager-background-color);
+        }
+    
+    /* end - pagers */
+    
+    /* start - forms */
+    
+    input[type="email"], 
+    input[type="number"], 
+    input[type="search"], 
+    input[type="text"], 
+    input[type="tel"], 
+    input[type="url"], 
+    input[type="password"],
+    input[type="date"],
+    .form-group .file-button,
+    textarea, select {
+    	height: var(--number__df__input-height);
+    	padding: var(--number__df__input-padding);
+    	background-color: var(--color__df__input-background-color);
+    	border-width: var(--number__df__input-border-width);
+    	border-color: var(--color__df__input-border-color);
+    	border-radius: var(--number__df__input-border-radius);
+    }
+    textarea{
+        height: var(--number__df__textarea-height);
+    }
+    input[type="email"]:focus, 
+    input[type="number"]:focus, 
+    input[type="search"]:focus, 
+    input[type="text"]:focus, 
+    input[type="tel"]:focus, 
+    input[type="url"]:focus, 
+    input[type="password"]:focus,
+    input[type="date"]:focus,
+    textarea:focus, 
+    select:focus{
+        border-color: var(--color__df__input-on-focus-border-color);
+    }
+    .fb-inner:after{
+        color: var(--color__df__input-icon-color);
+    }
+    .fb-radio-helper:after,
+    .fb-checkbox-helper:after,
+    .fb-cr input:checked ~ .fb-radio-helper:before,
+    .fb-cr input:checked ~ .fb-checkbox-helper:before{
+    	color: var(--color__df__input-border-color);
+    }
+    .fb-cr input:checked ~ .fb-radio-helper:after,
+    .fb-cr input:checked ~ .fb-checkbox-helper:after{
+    	color: var(--color__df__input-icon-color);
+    }
+    .fb-file-inner:after {
+    	background-color: var(--color__secondary-background-color);
+    }
+    .fb-file-inner:before {
+        color: var(--color__df__input-icon-color);
+    }
+    .fb-file-inner span{
+        position: absolute;
+        top: 0;
+        left: 10px;
+        z-index: 2;
+        display: block;
+        height: 100%;
+        line-height: 60px;
+    }
+    
+        /* start - form success message */
+        .form-wrapper .success {
+        	background: #f0f9ef;
+        	padding: 20px 30px 20px 90px;
+        	position: relative;
+        	box-sizing: border-box;
+        	border: 1px solid #7ebb7a;
+        	border-radius: 4px;
+        	margin: 0 auto 40px;
+        	max-width: 750px;
+        	width: 100%;
+        	overflow: hidden;
+        }
+        .form-wrapper .success:before {
+        	content: '';
+        	width: 60px;
+        	height: 100%;
+        	background: #7ebb7a;
+        	position: absolute;
+        	top: 0;
+        	left: 0;
+        }
+        	.success-heading {
+        		color: #7ebb7a;
+        		margin: 0 auto 12px;
+        		font-weight: bold;
+        		font-size: 1.2rem;
+        	}
+        	.form-wrapper .success:after {
+        		content: '\eb0e';
+        		font-family: 'icomoon';
+        		color: #fff;
+        		position: absolute;
+        		top: 50%;
+        		left: 30px;
+        		-webkit-transform: translate(-50%, -50%);
+        		-ms-transform: translate(-50%, -50%);
+        		transform: translate(-50%, -50%);
+        		font-size: 2rem;
+        	}
+        /* end - form success message */
+        
+        /* start - form failed message */
+        .form-wrapper .failed {
+        	background: #fef4f4;
+        	padding: 20px 30px 20px 90px;
+        	position: relative;
+        	box-sizing: border-box;
+        	border: 1px solid #f68a8a;
+        	border-radius: 4px;
+        	margin: 0 auto 40px;
+        	max-width: 750px;
+        	width: 100%;
+        	overflow: hidden;
+        }
+        .form-wrapper .failed:before {
+        	content: '';
+        	width: 60px;
+        	height: 100%;
+        	background: #f68a8a;
+        	position: absolute;
+        	top: 0;
+        	left: 0;
+        }
+        	.failed-heading {
+        		color: #f68a8a;
+        		margin: 0 auto 12px;
+        		font-weight: bold;
+        		font-size: 1.2rem;
+        	}
+        	.form-wrapper .failed:after {
+        		content: '\e950';
+        		font-family: 'icomoon';
+        		color: #fff;
+        		position: absolute;
+        		top: 50%;
+        		left: 30px;
+        		-webkit-transform: translate(-50%, -50%);
+        		-ms-transform: translate(-50%, -50%);
+        		transform: translate(-50%, -50%);
+        		font-size: 2rem;
+        	}
+        /* end - form failed message */
+    /* end - forms */
+    
+    /* start - datepicker */
+    .ui-datepicker {
+    	border-color: var(--color__df__datepicker-border-color);
+    	background-color: var(--color__df__datepicker-background-color);
+    }
+    .ui-datepicker table tbody,
+    .ui-datepicker tr:nth-of-type(2n){
+        background-color: var(--color__df__datepicker-table-body-background-color);
+    }
+    .ui-datepicker .ui-datepicker-title,
+    .ui-datepicker .ui-datepicker-next:before, 
+    .ui-datepicker .ui-datepicker-prev:before,
+    .ui-datepicker th{
+    	color: var(--color__df__datepicker-table-heading-color);
+    }
+    .ui-datepicker td .ui-state-default {
+        padding: var(--number__df__datepicker-default-padding);
+        border-radius: var(--number__df__datepicker-default-border-radius);
+        border-width: var(--number__df__datepicker-default-border-width);
+        border-color: var(--color__df__datepicker-default-border-color);
+        color: var(--color__df__datepicker-default-color);
+        background: var(--color__df__datepicker-default-background-color);
+    }
+    .ui-datepicker td.ui-state-disabled .ui-state-default {
+        border-color: var(--color__df__datepicker-disabled-border-color);
+        color: var(--color__df__datepicker-disabled-color);
+        background: var(--color__df__datepicker-disabled-background-color);
+    }
+    .ui-datepicker td.ui-datepicker-today .ui-state-default,
+    .ui-datepicker td.ui-datepicker-today .ui-state-default.ui-state-hover{
+    	background-color: var(--color__df__datepicker-today-background-color);
+    	color: var(--color__df__datepicker-today-color);
+    }
+    .ui-datepicker td .ui-state-default.ui-state-hover,
+    .ui-datepicker td .ui-state-default.ui-state-active{
+    	background-color: var(--color__df__datepicker-highlight-background-color);
+    	color: var(--color__df__datepicker-highlight-color);
+    }
+    /* end - datepicker */
+    
+    /* start - r2g footer - cse */
+    
+    footer{
+        color: #fff;
+    }
+    footer h3{
+        color: #fff;
+    }
+    footer li, footer p {
+    	font-size: 1.6rem;
+    }
+    footer a {
+    	color: #fff;
+    	text-decoration: none;
+    }
+    footer a:hover {
+    	color: #ff91a4;
+    }
+    footer .active a {
+    	color: #fecc56;
+    }
+    footer .primary-button,
+    footer button.primary-button{
+    	font-size: 1.6rem;
+    	line-height: 20px;
+    }
+    footer label{
+        color: #fff;
+    }
+    footer .fb-privacyfield label{
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+    footer input{
+        color: #333333;
+    }
+    footer .fb-cr input:checked ~ .fb-radio-helper:after, 
+    footer .fb-cr input:checked ~ .fb-checkbox-helper:after {
+    	color: #fff;
+    }
+    .copyright-bar p {
+    	font-size: 1.4rem;
+    }
+    
+    /* end - r2g footer - cse */
+    
+/*///////////////////////////////////////*/
+/* END - MUST HAVE CSS */
+/*///////////////////////////////////////*/
+
+/*///////////////////////////////////////*/
+/* START - OPTIONAL CSS */
+/*///////////////////////////////////////*/
+    
+    /* start - typography */ 
+    
+    /**
+     * Link Options
+     */
+    
+    .link-option-1 {
+        font-family: "Merienda", cursive;
+        font-weight: 700;
+        color: #ff91a4;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    .link-option-1:hover,
+    .link-option-1:hover .icn-arrow {
+        color: #7a3548;
+    }
+    
+    .link-option-2 {
+        font-family: "Merienda", cursive;
+    	font-weight: 400;
+        color: #7a3548;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    .link-option-2:hover {
+        color: #ff91a4;
+    }
+    
+    .link-option-3 {
+        font-family: "Merienda", cursive;
+    	font-weight: 400;
+        color: #333;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .link-option-3:hover {
+        color: #c98b2b;
+    }
+    
+    /**
+     * Button Options
+     */
+    .link-as-button-option-1,
+    .primary-button,
+    button.primary-button{
+        font-family: "Merienda", cursive;
+        border-radius: 0.6rem;
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: #fff;
+        line-height: 2rem;
+    	text-decoration: none;
+        text-transform: uppercase;
+    }
+    .link-as-button-option-1:hover,
+    .primary-button:hover,
+    .primary-button:focus,
+    button.primary-button:hover,
+    button.primary-button:focus{
+        color: #fff;
+    }
+    
+    .link-as-button-option-2,
+    .secondary-button,
+    button.secondary-button{
+        font-family: "Merienda", cursive;
+        font-size: 2rem;
+    	font-weight: 400;
+        color: #4b4342;
+        line-height: 2rem;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .link-as-button-option-2:hover,
+    .secondary-button:hover,
+    .secondary-button:focus,
+    button.secondary-button:hover,
+    button.secondary-button:focus{
+        color: #fff;
+    }
+    
+    .link-as-button-option-3,
+    button{
+        font-family: 'Inter', sans-serif;
+        font-size: 1.5rem;
+    	font-weight: 400;
+        color: #b49006;
+        line-height: 2rem;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .link-as-button-option-3:hover,
+    button:hover,
+    button:focus{
+        color: #fff;
+    }
+		/* on bg */
+		.on-bg .link-as-button-option-1,
+		.on-bg .primary-button,
+		.on-bg button.primary-button{
+			color: #fff;
+		}
+		.on-bg .link-as-button-option-1:hover,
+		.on-bg .primary-button:hover,
+		.on-bg .primary-button:focus,
+		.on-bg button.primary-button:hover,
+		.on-bg button.primary-button:focus{
+			color: #fff;
+		}
+		
+		.on-bg .link-as-button-option-2,
+		.on-bg .secondary-button,
+		.on-bg button.secondary-button{
+			color: #fff;
+		}
+		.on-bg .link-as-button-option-2:hover,
+		.on-bg .secondary-button:hover,
+		.on-bg .secondary-button:focus,
+		.on-bg button.secondary-button:hover,
+		.on-bg button.secondary-button:focus{
+			color: #fff;
+		}
+		
+		.on-bg .link-as-button-option-3,
+		.on-bg button{
+			color: #b49006;
+		}
+		.on-bg .link-as-button-option-3:hover,
+		.on-bg button:hover,
+		.on-bg button:focus{
+			color: #fff;
+		}
+		/* on bg */
+    /* end - typography */ 
+    
+    /* start - r2g header - cse */ 
+    
+    .r2g-header.header-fixed .top-bar{
+        color: #333;
+    }
+    .r2g-header.header-fixed .top-bar a{
+        color: #333;
+    }
+    .r2g-header .r2g-contact-options .icon,
+    .r2g-header .r2g-header-social-media .icon{
+        font-size: 1.6rem;
+    }
+    .r2g-header .more-menu-wrapper .r2g-header-social-media .icon{
+        font-size: 3rem;
+    }
+    .r2g-header.header-fixed .top-bar a:hover{
+        color: #b49006;
+    }
+    .r2g-header.header-fixed .top-bar .active a{
+        color: #b49006;
+    }
+    
+    .r2g-header .header-bottom-bar .primary-button{
+        font-family: 'Inter', sans-serif;
+    	font-weight: 400;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .r2g-header.header-fixed .header-bottom-bar .primary-button{
+        color: #fff;
+    }
+    .r2g-header .header-bottom-bar .primary-button:hover{
+        color: #fff;
+    }
+    
+    .more-menu-wrapper a{
+        color: #fff;
+        text-decoration: none;
+    }
+    .more-menu-wrapper a:hover{
+        color: #00a8e8;
+    }
+    .more-menu-wrapper .active a{
+        color: #00a8e8;
+    }
+    
+    /* end - r2g header - cse */ 
+    
+    /* start - r2g main visual - cse */ 
+    
+        /* start - r2g main visual slogan typography */ 
+        .main-visual-default .main-visual-slogan-wrapper h4{
+			font-family: 'Inter';
+			font-weight: 700;
+			font-size: 5rem;
+			line-height: 6rem;
+			color: #FFFFFF;
+        }
+		.main-visual-default .main-visual-slogan-wrapper p{
+			font-family: 'Inter';
+			font-weight: 400;
+			font-size: 2rem;
+			line-height: 3rem;
+			color: #FFFFFF;
+		}
+        /* end - r2g main visual slogan typography */ 
+        
+        /* start - r2g main visual arrows */ 
+        .main-visual-arrow-wrapper .prev .line-one:before {
+        	content: '\eb2a';
+        }
+        .main-visual-arrow-wrapper .next .line-one:before {
+        	content: '\e9e5';
+        }
+        /* end - r2g main visual arrows */ 
+    
+    /* end - r2g main visual - cse */ 
+	
+	/* start - r2g breadcrumb - cse */ 
+	.r2g-breadcrumb a,
+	.r2g-breadcrumb a.active{
+		color: #000;
+	}
+	.r2g-breadcrumb a:hover{
+		color: #b60655;
+	}
+	.r2g-breadcrumb a.active{
+		text-decoration: none;
+		pointer-events: none;
+	}
+	
+	/* end - r2g breadcrumb - cse */ 
+    
+    /* start - r2g tab main strip - cse */
+    
+    .r2g-tabs-main-strip .tab-content-wrapper .accordion-title  {
+        font-size: 1.8rem;
+    	color: #000;
+    	font-weight: 200;
+    	text-transform: capitalize;
+    }
+    .r2g-tabs-main-strip .tab-content-wrapper .accordion-title span{
+        font-size: 2.5rem;
+        color: #a7a7a7;
+        font-weight: 200;
+    }
+    
+    /* end - r2g tab main strip - cse */
+    
+    /* start - r2g flex xlist main strip - cse */
+    
+    .r2g-flex-xlist-main-strip .intro-content{
+        border: 0;
+    }
+    .r2g-flex-xlist-main-strip .filters .cat-item{
+        color: #7a3548;
+        text-transform: uppercase;
+    }
+    .r2g-flex-xlist-main-strip .filters .cat-item label{
+        color: #000;
+        text-transform: uppercase;
+    }
+    
+    /* end - r2g flex xlist main strip - cse */
+    
+    /* start - r2g xlist grid main strip - cse */
+    
+    .r2g-xlist-grid-main-strip .filters .cat-item {
+    	color: #b49006;
+    	text-transform: uppercase;
+    }
+    .r2g-xlist-grid-main-strip .filters .cat-item label {
+    	color: #000;
+    	text-transform: uppercase;
+    }
+    
+    /* end - r2g xlist grid main strip - cse */
+    
+    /* start - r2g accordion main strip - cse */
+    
+    .r2g-xlist-accordion-main-strip .strip-item > .accordion-title {
+        font-size: 1.8rem;
+    	color: #000;
+    	font-weight: 200;
+    }
+    .r2g-xlist-accordion-main-strip .strip-item > .accordion-title:after{
+        font-size: 1.5rem;
+        color: #a7a7a7;
+        font-weight: 200;
+    }
+    
+    /* end - r2g accordion main strip - cse */
+    
+    /* start - r2g gallery main strip - cse */
+    
+    .r2g-gallery-main-strip .filters .cat-item .fa {
+    	color: #b49006;
+    	text-transform: uppercase;
+    }
+    .r2g-gallery-main-strip .filters .cat-item label {
+        font-family: 'Inter', sans-serif;
+    	color: #000;
+        text-transform: capitalize;
+        line-height: 1.3rem;
+        font-weight: 300;
+        font-size: 1.3rem;
+    }
+    
+    /* end - r2g gallery main strip - cse */
+    
+    /* start - r2g expandable xlist main strip */
+    
+    .r2g-expandable-xlist .xList-item .intro-content-inner h4 {
+    	font-size: 1.4rem;
+    	margin: 0 auto 20px;
+    }
+    
+    /* end - r2g expandable xlist main strip */
+    
+    /* start - r2g googlemap main strip */
+    
+    .r2g-google-map-main-strip .map-category-wrapper label {
+    	font-family: 'Inter', sans-serif;
+    	color: #000;
+    	text-transform: capitalize;
+    	line-height: 1.3rem;
+    	font-weight: 300;
+    	font-size: 1.3rem;
+    }
+    .r2g-google-map-main-strip .map-category-wrapper .fa{
+        color: #b49006;
+        text-transform: uppercase;
+    }
+    
+    /* end - r2g googlemap main strip */
+    
+    /* start - footer-social-media */
+    
+    .r2g-footer-social-media .icon {
+    	font-size: 4.55rem;
+    }
+    
+    /* end - footer-social-media*/
+    
+    /* start - footer contact-details */
+    
+    .r2g-contact-details .icon{
+        font-size: 1.8rem;
+    }
+    
+    /* end - footer contact-details */
+    
+    /***********************************
+     * Start - Variable related CSS
+    **********************************/
+    
+    /* start - typography */
+    /**
+     * Button Options
+     */
+    .link-option-1 {
+        padding: var(--number__link-option-one-padding);
+        border-color: var(--color__link-option-one-border-color);
+        background-color: var(--color__link-option-one-background-color);
+    }
+    .link-option-1:hover {
+        border-color: var(--color__on-hover-link-option-one-border-color);
+        background-color: var(--color__on-hover-link-option-one-background-color);
+    }
+    
+    .link-option-2 {
+        padding: var(--number__link-option-two-padding);
+        border-color: var(--color__link-option-two-border-color);
+        background-color: var(--color__link-option-two-background-color);
+    }
+    .link-option-2:hover {
+        border-color: var(--color__on-hover-link-option-two-border-color);
+        background-color: var(--color__on-hover-link-option-two-background-color);
+    }
+    
+    .link-option-3 {
+        padding: var(--number__link-option-three-padding);
+        border-color: var(--color__link-option-three-border-color);
+        background-color: var(--color__link-option-three-background-color);
+    }
+    .link-option-3:hover {
+        border-color: var(--color__on-hover-link-option-three-border-color);
+        background-color: var(--color__on-hover-link-option-three-background-color);
+    }
+    
+    /**
+     * Button Options
+     */
+    .link-as-button-option-1,
+    .primary-button,
+    button.primary-button{
+        border-radius: var(--number__link-as-button-option-one-border-radius);
+        padding: var(--number__link-as-button-option-one-padding);
+        border-color: var(--color__link-as-button-option-one-border-color);
+        background-color: var(--color__link-as-button-option-one-background-color);
+    }
+    .link-as-button-option-1:hover,
+    .primary-button:hover,
+    button.primary-button:hover{
+        border-color: var(--color__on-hover-link-as-button-option-one-border-color);
+        background-color: var(--color__on-hover-link-as-button-option-one-background-color);
+    }
+    
+    .link-as-button-option-2,
+    .secondary-button,
+    button.secondary-button{
+        border-radius: var(--number__link-as-button-option-two-border-radius);
+        padding: var(--number__link-as-button-option-two-padding);
+        border-color: var(--color__link-as-button-option-two-border-color);
+        background-color: var(--color__link-as-button-option-two-background-color);
+    }
+    .link-as-button-option-2:hover,
+    .secondary-button:hover,
+    button.secondary-button:hover{
+        border-color: var(--color__on-hover-link-as-button-option-two-border-color);
+        background-color: var(--color__on-hover-link-as-button-option-two-background-color);
+    }
+    
+    .link-as-button-option-3,
+    button{
+        border-radius: var(--number__df__button-option-three-border-radius);
+        padding: var(--number__link-as-button-option-three-padding);
+        border-color: var(--color__link-as-button-option-three-border-color);
+        background-color: var(--color__link-as-button-option-three-background-color);
+    }
+    .link-as-button-option-3:hover,
+    button:hover{
+        border-color: var(--color__on-hover-link-as-button-option-three-border-color);
+        background-color: var(--color__on-hover-link-as-button-option-three-background-color);
+    }
+    
+    tr:nth-of-type(2n){
+        background-color: var(--color__table-row-background-color);
+    }
+    
+    /* start - typography */
+    
+    /* start - r2g header - cse */
+    
+    .r2g-header .header-bottom-bar .primary-button{
+        padding: var(--number__df__header-bottom-bar-primary-button-padding);
+        border-color: var(--color__df__header-bottom-bar-primary-button-border-color);
+        background-color: var(--color__df__header-bottom-bar-primary-button-background-color);
+    }
+    .r2g-header .header-bottom-bar .primary-button:hover{
+        border-color: var(--color__df__header-bottom-bar-primary-button-on-hover-border-color);
+        background-color: var(--color__df__header-bottom-bar-primary-button-on-hover-background-color);
+    }
+    .header-fixed.r2g-header{
+        box-shadow: var(--number__df__header-fixed-shadow-border) var(--color__df__header-fixed-shadow-color);
+    }
+    .r2g-header .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar, 
+    .r2g-header .mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+    .r2g-header .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    	background-color: var(--color__df__header-more-menu-scrollbar-dragger-background-color);
+    }
+    .r2g-header .mCSB_scrollTools .mCSB_draggerRail{
+    	background-color: var(--color__df__header-more-menu-scrollbar-background-color);
+    }
+    
+    /* end - r2g header - cse */
+    
+    /* start - r2g main visual - cse */
+    
+    .r2g-main-visual{
+        margin: var(--number__df__main-visual-margin);
+    }
+    .main-visual-default .main-visual-slogan-wrapper {
+        border-color: var(--color__df__main-visual-slogan-wrapper-border-color);
+        background-color: var(--color__df__main-visual-slogan-wrapper-background-color);
+    }
+        .main-visual-default .container {
+            border-color: var(--color__df__main-visual-container-border-color);
+            background-color: var(--color__df__main-visual-container-background-color);
+        }
+    .main-visual-default .main-visual-play{
+        color: var(--color__df__main-visual-video-icon-color);
+    }
+    .main-visual-default .slider-navigation {
+        color: var(--color__df__main-visual-arrow-color);
+        border-color: var(--color__df__main-visual-arrow-border-color);
+        background-color: var(--color__df__main-visual-arrow-background-color);
+    }
+    .main-visual-default .main-visual-pager-wrapper li{
+        border-color: var(--color__df__main-visual-pager-border-color);
+        background-color: var(--color__df__main-visual-pager-background-color);
+    }
+    .main-visual-default .main-visual-pager-wrapper .slick-active{
+        border-color: var(--color__df__main-visual-active-pager-border-color);
+        background-color: var(--color__df__main-visual-active-pager-background-color);
+    }
+    
+    /* end - r2g main visual - cse */
+    
+    /* start - r2g footer newsletter - cse */
+    footer input[type="email"]{
+        height: var(--number__df__footer-input-height);
+        border-width: var(--number__df__footer-input-border-width);
+        border-color: var(--color__df__footer-input-border-color);
+        background-color: var(--color__df__footer-input-background-color);
+    }
+    footer button,
+    footer .primary-button{
+        height: var(--number__df__footer-input-height);
+        padding: var(--number__df__footer-button-padding);
+    }
+    /* end - r2g footer newsletter - cse */
+    
+    /***********************************
+     * End - Variable related CSS
+    **********************************/
+
+/*///////////////////////////////////////*/
+/* START - OPTIONAL CSS */
+/*///////////////////////////////////////*/

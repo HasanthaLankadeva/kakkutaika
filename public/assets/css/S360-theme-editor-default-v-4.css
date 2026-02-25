@@ -1,0 +1,207 @@
+/**
+ * Use by theme editor
+ * DONT CHANGE THIS FILE
+ */
+html {
+	font-family: sans-serif;
+}
+
+body {
+	font-size: 16px;
+	background-color: #ffffff;
+	color: #212121;
+	font-weight: 400;
+}
+
+/**
+ * Typography
+ */
+h1 {
+	color: #212121;
+	margin: 0 auto 40px;
+}
+h2 {
+	color: #616161;
+	margin: 0 auto 38px;
+}
+h3 {
+	color: #757575;
+	margin: 0 auto 35px;
+}
+h4 {
+	color: #9E9E9E;
+	margin: 0 auto 30px;
+}
+h5 {
+	color: #BDBDBD;
+	margin: 0 auto 30px;
+}
+h6 {
+	color: #BDBDBD;
+	margin: 0 auto 30px;
+}
+p,
+ol,
+ul,
+table{
+    margin: 0 0 20px;
+}
+th,
+td{
+    border: 1px solid;
+    padding: 10px;
+}
+tr:nth-of-type(2n){
+    background-color: #f1f1f1;
+}
+a{
+    transition: all 0.4s ease-in-out;
+}
+
+/**
+ * Strip common gap
+ */
+.strip-row {
+	margin-bottom: 75px;
+}
+
+/**
+ * Linke Options
+ */
+.link-option-1 {
+    border-style: solid;
+    border-width: 0 0 1px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.link-option-2{
+    position: relative;
+    padding: 0 20px 0 0;
+    box-sizing: border-box;
+}
+.link-option-2:after {
+    font-family: 'icomoon';
+    content: '\e9e4';
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.link-option-3{
+    position: relative;
+    padding: 0 25px 0 0;
+    box-sizing: border-box;
+}
+.link-option-3:after {
+    font-family: 'icomoon';
+    content: '\eb50';
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/**
+ * Link as Button Options
+ */
+.link-as-button-option-1,
+.primary-button,
+button.primary-button {
+    border-style: solid;
+    border-width: 1px;
+    padding: 6px 16px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.link-as-button-option-2,
+.secondary-button,
+button.secondary-button {
+    border-style: solid;
+    border-width: 1px;
+    padding: 6px 16px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.link-as-button-option-3,
+button{
+    border-style: solid;
+    border-width: 1px;
+    padding: 6px 16px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.primary-button,
+.secondary-button,
+button{
+    -webkit-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+/**
+ * Rotator arrows
+ */
+.arrows-wrapper .slick-arrow{
+    border-style: solid;
+    box-sizing: border-box;
+}
+ 
+/**
+ * Rotator pagers
+ */
+.pager-wrapper li{
+    -webkit-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+/**
+ * Remove hover from touch devices
+ */
+@media (hover: hover) {
+    a:hover { color: inherit; }
+}
+@media (hover: none) {
+    a:hover { color: inherit; }
+}
+
+
+/* 
+CMS editor default style formats
+DON'T REMOVE THIS SECTION 
+*/
+
+/**style_formats**
+
+   { "title": "Text formats" },        
+   { "title": "Badge", "inline": "span", "styles": { "display": "inline-block", "border": "1px solid #2276d2", "border-radius": "5px", "padding": "2px 5px", "margin": "0 2px", "color": "#2276d2" } },    
+   { "title": "Link formats" },
+   { "title": "Link Option 1", "selector": "a", "classes": "link link-option-1" },
+   { "title": "Link Option 2", "selector": "a", "classes": "link link-option-2" },
+   { "title": "Link Option 3", "selector": "a", "classes": "link link-option-3" },
+   { "title": "Link as Button Option 1", "selector": "a", "classes": "link-as-button link-as-button-option-1" },       
+   { "title": "Link as Button Option 2", "selector": "a", "classes": "link-as-button link-as-button-option-2" },
+   { "title": "Link as Button Option 3", "selector": "a", "classes": "link-as-button link-as-button-option-3" },
+   { "title": "Wrap Image With Link", "selector": "a", "classes": "wrap-image-with-link" },
+   { "title": "Image formats" },       
+   { "title": "Image Left", "selector": "img", "styles": { "float": "left", "margin": "0 10px 0 10px" } },        
+   { "title": "Image Right", "selector": "img", "styles": { "float": "right", "margin": "0 0 10px 10px" } }
+
+**style_formats**/
+
+
+
+/**templates**
+
+{ "title": "HTML all elements", "description": "HTML all elements", "content": "<h1 id=\"headings\">Headings<\/h1>\r\n\r\n<h1>Heading 1<\/h1>\r\n\r\n<h2>Heading 2<\/h2>\r\n\r\n<h3>Heading 3<\/h3>\r\n\r\n<h4>Heading 4<\/h4>\r\n\r\n<h5>Heading 5<\/h5>\r\n\r\n<h6>Heading 6<\/h6>\r\n\r\n\r\n\r\n<p class=\"top\"><a href=\"#top\">[top]<\/a><\/p>\r\n<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --><hr\/>\r\n\r\n\r\n\r\n<h1 id=\"paragraphs\">Paragraph<\/h1>\r\n\r\n<img style=\"width:276px;height:110px;float:right;\" src=\"http:\/\/www.google.co.uk\/intl\/en_uk\/images\/logo.gif\" alt=\"Google Logo\"\/>\r\n\r\n<p>Lorem ipsum dolor sit amet, <a href=\"#\" title=\"test link\">test link<\/a> adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, <strong>bold<\/strong> mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.<\/p>\r\n\r\n<p>Lorem ipsum dolor sit amet, <em>emphasis<\/em> consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.<\/p>\r\n\r\n\r\n\r\n<p class=\"top\"><a href=\"#top\">[top]<\/a><\/p>\r\n<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --><hr\/>\r\n\r\n\r\n\r\n<h1 id=\"lists\">Lists<\/h1>\r\n\r\n<h3>Definition List<\/h3>\r\n\r\n<dl>\r\n\t<dt>List Item 1<\/dt>\r\n\t<dd>List item 1 description.<\/dd>\r\n\t<dt>List Item 2<\/dt>\r\n\t<dd>List item 2 description.<\/dd>\r\n\t<dt>List Item 3<\/dt>\r\n\t<dd>List item 3 description.<\/dd>\r\n<\/dl>\r\n\r\n<h3>Ordered List<\/h3>\r\n\r\n<ol>\r\n\t<li>List Item 1<\/li>\r\n\t<li>List Item 2<\/li>\r\n\t<li>List Item 3<\/li>\r\n<\/ol>\r\n\r\n<h3>Unordered List<\/h3>\r\n\r\n<ul>\r\n\t<li>List Item 1<\/li>\r\n\t<li>List Item 2<\/li>\r\n\t<li>List Item 3<\/li>\r\n<\/ul>\r\n\r\n\r\n\r\n<p class=\"top\"><a href=\"#top\">[top]<\/a><\/p>\r\n<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --><hr\/>\r\n\r\n\r\n\r\n<h1 id=\"forms\">Form Elements<\/h1>\r\n\t\r\n<form>\r\n\t\r\n\t<div class=\"field\">\r\n\t\t<label for=\"text-field-1\">Text Field:<\/label><br\/>\r\n\t\t<input type=\"text\" id=\"text-field-1\" name=\"text-field-1\"\/>\r\n\t<\/div>\r\n\t\r\n\t<div class=\"field\">\r\n\t\t<label for=\"text-field-2\">Text Field:<\/label>\r\n\t\t<input type=\"text\" id=\"text-field-2\" name=\"text-field-2\"\/>\r\n\t<\/div>\r\n\t\r\n\t<div class=\"field\">\r\n\t\t<label for=\"text-area-1\">Text Area:<\/label><br\/>\r\n\t\t<textarea id=\"text-area-1\" name=\"text-area-1\"><\/textarea>\r\n\t<\/div>\r\n\t\r\n\t<div class=\"field\">\r\n\t\t<label for=\"select-element-1\">Select Element:<\/label><br\/>\r\n\t\t<select id=\"select-element-1\" name=\"select-element-1\">\r\n\t\t\t<optgroup label=\"Option Group 1\">\r\n\t\t\t\t<option value=\"1\">Option 1<\/option>\r\n\t\t\t\t<option value=\"2\">Option 2<\/option>\r\n\t\t\t\t<option value=\"3\">Option 3<\/option>\r\n\t\t\t<\/optgroup>\r\n\t\t\t<optgroup label=\"Option Group 2\">\r\n\t\t\t\t<option value=\"1\">Option 1<\/option>\r\n\t\t\t\t<option value=\"2\">Option 2<\/option>\r\n\t\t\t\t<option value=\"3\">Option 3<\/option>\r\n\t\t\t<\/optgroup>\r\n\t\t<\/select>\r\n\t<\/div>\r\n\t\r\n\t<div class=\"field\">\r\n\t\t<label for=\"select-element-2\">Select Element:<\/label>\r\n\t\t<select id=\"select-element-2\" name=\"select-element-2\">\r\n\t\t\t<optgroup label=\"Option Group 1\">\r\n\t\t\t\t<option value=\"1\">Option 1<\/option>\r\n\t\t\t\t<option value=\"2\">Option 2<\/option>\r\n\t\t\t\t<option value=\"3\">Option 3<\/option>\r\n\t\t\t<\/optgroup>\r\n\t\t\t<optgroup label=\"Option Group 2\">\r\n\t\t\t\t<option value=\"1\">Option 1<\/option>\r\n\t\t\t\t<option value=\"2\">Option 2<\/option>\r\n\t\t\t\t<option value=\"3\">Option 3<\/option>\r\n\t\t\t<\/optgroup>\r\n\t\t<\/select>\r\n\t<\/div>\r\n\t\r\n\t<div class=\"field\">\r\n\t\t<label>Radio Buttons:<\/label><br\/>\r\n\t\t<input type=\"radio\" name=\"radio-1\"\/> Radio 1<br\/>\r\n\t\t<input type=\"radio\" name=\"radio-1\"\/> Radio 2<br\/>\r\n\t\t<input type=\"radio\" name=\"radio-1\"\/> Radio 3\r\n\t<\/div>\r\n\t\r\n\t<div class=\"field\">\r\n\t\t<label>Radio Button:<\/label>\r\n\t\t<input type=\"radio\" name=\"radio-2\"\/>\r\n\t<\/div>\r\n\t\r\n\t<div class=\"field\">\r\n\t\t<label>Checkboxes:<\/label><br\/>\r\n\t\t<input type=\"checkbox\" name=\"checkbox-1\"\/> Checkbox 1<br\/>\r\n\t\t<input type=\"checkbox\" name=\"checkbox-2\"\/> Checkbox 2<br\/>\r\n\t\t<input type=\"checkbox\" name=\"checkbox-3\"\/> Checkbox 3\r\n\t<\/div>\r\n\t\r\n\t<div class=\"field\">\r\n\t\t<label>Checkbox:<\/label>\r\n\t\t<input type=\"checkbox\" name=\"checkbox-4\"\/>\r\n\t<\/div>\r\n\t\r\n\t\r\n\t<div class=\"field\">\r\n\t\t<label for=\"password-field-1\">Password Field:<\/label><br\/>\r\n\t\t<input type=\"password\" id=\"password-field-1\" name=\"password-field-1\"\/>\r\n\t<\/div>\r\n\t\r\n\t<div class=\"field\">\r\n\t\t<label for=\"password-field-2\">Password Field:<\/label>\r\n\t\t<input type=\"password\" id=\"password-field-2\" name=\"password-field-2\"\/>\r\n\t<\/div>\r\n\t\r\n\t<div class=\"field\">\r\n\t\t<label for=\"file-input-1\">File Input:<\/label><br\/>\r\n\t\t<input type=\"file\" id=\"file-input-1\" name=\"file-input-1\"\/>\r\n\t<\/div>\r\n\t\r\n\t<div class=\"field\">\r\n\t\t<label for=\"file-input-2\">File Input:<\/label>\r\n\t\t<input type=\"file\" id=\"file-input-2\" name=\"file-input-2\"\/>\r\n\t<\/div>\r\n\t\r\n\t<div class=\"field\">\r\n\t\t<label>Buttons:<\/label><br\/>\r\n\t\t<input type=\"submit\" value=\"Submit\"\/>\r\n\t\t<input type=\"reset\" value=\"Reset\"\/>\r\n\t\t<input type=\"button\" value=\"Button\"\/>\r\n\t\t<button>Button Element<\/button>\r\n\t<\/div>\r\n\t\t\t\r\n<\/form>\r\n\r\n\r\n\r\n<p class=\"top\"><a href=\"#top\">[top]<\/a><\/p>\r\n<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --><hr\/>\r\n\r\n\r\n\r\n<h1 id=\"tables\">Tables<\/h1>\r\n\r\n<table cellpadding=\"0\" cellspacing=\"0\">\r\n\t\r\n\t<tr>\r\n\t\t<th>Heading 1<\/th>\r\n\t\t<th>Heading 2<\/th>\r\n\t\t<th>Heading 3<\/th>\r\n\t<\/tr>\r\n\t\r\n\t<tr>\r\n\t\t<td>Cell 1-1<\/td>\r\n\t\t<td>Cell 2-1<\/td>\r\n\t\t<td>Cell 3-1<\/td>\r\n\t<\/tr>\r\n\t\r\n\t<tr>\r\n\t\t<td>Cell 1-2<\/td>\r\n\t\t<td>Cell 2-2<\/td>\r\n\t\t<td>Cell 3-2<\/td>\r\n\t<\/tr>\r\n\t\r\n\t<tr>\r\n\t\t<td>Cell 1-3<\/td>\r\n\t\t<td>Cell 2-3<\/td>\r\n\t\t<td>Cell 3-3<\/td>\r\n\t<\/tr>\r\n\r\n<\/table>\r\n\r\n<table class=\"bordered\" cellpadding=\"0\" cellspacing=\"0\">\r\n\t\r\n\t<tr>\r\n\t\t<th>Heading 1<\/th>\r\n\t\t<th>Heading 2<\/th>\r\n\t\t<th>Heading 3<\/th>\r\n\t<\/tr>\r\n\t\r\n\t<tr>\r\n\t\t<td>Cell 1-1<\/td>\r\n\t\t<td>Cell 2-1<\/td>\r\n\t\t<td>Cell 3-1<\/td>\r\n\t<\/tr>\r\n\t\r\n\t<tr>\r\n\t\t<td>Cell 1-2<\/td>\r\n\t\t<td>Cell 2-2<\/td>\r\n\t\t<td>Cell 3-2<\/td>\r\n\t<\/tr>\r\n\t\r\n\t<tr>\r\n\t\t<td>Cell 1-3<\/td>\r\n\t\t<td>Cell 2-3<\/td>\r\n\t\t<td>Cell 3-3<\/td>\r\n\t<\/tr>\r\n\r\n<\/table>\r\n\r\n\r\n\r\n<p class=\"top\"><a href=\"#top\">[top]<\/a><\/p>\r\n<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --><hr\/>\r\n\r\n\r\n\r\n<h1 id=\"misc\">Misc Stuff - abbr, acronym, pre, code, sub, sup, etc.<\/h1>\r\n\r\n<p>Lorem <sup>superscript<\/sup> dolor <sub>subscript<\/sub> amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. <cite>cite<\/cite>. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, <code>inline code block<\/code> fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. <acronym title=\"National Basketball Association\">NBA<\/acronym> Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. <abbr title=\"Avenue\">AVE<\/abbr><\/p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. <acronym title=\"National Basketball Association\">NBA<\/acronym> Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. <abbr title=\"Avenue\">AVE<\/abbr><\/p>\r\n\r\n<pre>preformatted_text($like){\r\n    return 'code blocks';\r\n    }<\/pre>\r\n\r\n<blockquote>\r\n\t\"This test page is going to help so freaking much.\" <br \/>-Blockquote\r\n<\/blockquote>\r\n\r\n\r\n\r\n<p class=\"top\"><a href=\"#top\">[top]<\/a><\/p>"},
+{ "title": "Lorem Ipsum Content", "description": "Use Lorem Ipsum for dummy content", "content": "\r\n<p>\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac turpis purus. Etiam at pretium ipsum. Nulla facilisi. Maecenas eget metus velit. Sed nunc nulla, viverra scelerisque bibendum non, varius id dui. Duis ornare dolor odio, sit amet porta nisi egestas in. Phasellus dignissim, turpis sed iaculis luctus, turpis nunc eleifend leo, vitae lobortis odio nisi vitae libero. Morbi mollis, massa ac suscipit pharetra, elit libero hendrerit est, et volutpat leo diam sit amet elit.\r\n<\/p>\r\n<p>\r\nNunc ac euismod quam. Ut bibendum sed libero non porta. Etiam non lacus ipsum. Donec suscipit, arcu a egestas sollicitudin, magna nisi semper magna, vitae euismod leo nibh eget purus. Pellentesque dui odio, blandit aliquam pellentesque quis, venenatis vitae erat. Nam pellentesque ipsum varius sollicitudin facilisis. Fusce luctus sem ut tincidunt cursus.\r\n<\/p>\r\n\r\n<p>\r\nUt laoreet, purus at fermentum rhoncus, nisi est aliquam mauris, nec placerat nunc ante vitae diam. Nullam euismod nisi ipsum, id ultricies velit dapibus at. Aenean pretium est et lacus convallis euismod. Cras feugiat ante ac ante vulputate, nec pharetra massa pulvinar. In pretium a libero a elementum. Cras vitae lorem ac augue elementum commodo eu gravida odio. Sed ut dui sed quam tempor finibus ac ut lorem. Fusce at massa quis leo congue feugiat. Nam laoreet risus et nulla laoreet porta. Donec et elit sed nisi dictum suscipit. Donec nulla eros, volutpat a accumsan eu, placerat eget diam. Vestibulum rutrum nec justo quis dictum.\r\n<\/p>\r\n<ul>\r\n<li>Cras consectetur nibh non tortor cursus, a mollis tellus viverra.<\/li>\r\n<li>Morbi sit amet urna porta, molestie nunc vitae, molestie ex.<\/li>\r\n<li>Quisque pulvinar risus eget sapien dapibus feugiat.<\/li>\r\n<li>Morbi vel mauris et nunc tincidunt imperdiet.<\/li>\r\n<li>Donec vestibulum justo at tortor cursus pretium.<\/li>\r\n<li>In ac turpis sit amet elit accumsan fermentum fermentum vitae lorem.<\/li>\r\n<\/ul>\r\n<p>\r\nInteger nibh erat, vestibulum sed blandit ac, faucibus vel sem. Quisque ut mollis purus, in placerat mi. Morbi gravida convallis gravida. Aenean ac erat mi. In id convallis sapien. Curabitur aliquam, nisl in lobortis efficitur, justo massa porta enim, a viverra sem sapien quis tellus. Sed pretium eu nibh sed vestibulum. Cras et eros sed felis scelerisque egestas id ac justo. Donec eget vehicula odio. Maecenas ut nisi id nunc ultrices rutrum sit amet vel sapien. Vivamus neque justo, tristique et pulvinar et, tincidunt ac diam. Curabitur accumsan dolor laoreet odio sagittis, finibus fringilla metus laoreet.\r\n<\/p>\r\n<ul>\r\n<li>Cras consectetur nibh non tortor cursus, a mollis tellus viverra.<\/li>\r\n<li>Morbi sit amet urna porta, molestie nunc vitae, molestie ex.<\/li>\r\n<li>Quisque pulvinar risus eget sapien dapibus feugiat.<\/li>\r\n<li>Morbi vel mauris et nunc tincidunt imperdiet.<\/li>\r\n<li>Donec vestibulum justo at tortor cursus pretium.<\/li>\r\n<li>In ac turpis sit amet elit accumsan fermentum fermentum vitae lorem.<\/li>\r\n<\/ul>\r\n<p>\r\nProin vehicula tempus vehicula. Donec ex sem, fringilla quis commodo non, tincidunt a mauris. Sed risus ex, interdum vel elit non, vehicula eleifend dolor. Duis in elementum elit. Vivamus sed quam in magna mattis hendrerit. Maecenas quis eros vitae massa mattis pellentesque. Integer in risus ac nulla tincidunt mollis eget nec odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque cursus mauris accumsan bibendum iaculis. Integer semper in lacus id rutrum. Sed tempus sapien id felis tristique efficitur. In vitae dignissim dui, id placerat erat. Praesent accumsan nibh urna, sed viverra justo dignissim quis.\r\n<\/p>"}
+
+**templates**/
