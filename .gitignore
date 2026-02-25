@@ -13,6 +13,7 @@
 *.log
 
 # Uploads (keep directory, ignore files)
+app/config/config.php
 admin/db_connection/db_connection.php
 public/.htaccess
 public/uploads/*
