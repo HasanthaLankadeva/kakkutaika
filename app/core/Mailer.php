@@ -15,7 +15,7 @@ class Mailer
 			$mail->SMTPAuth   = true;
 			$mail->Username   = $config['smtp_username'];
 			$mail->Password   = $config['smtp_password'];
-			$mail->smtp_secure = 'tls';
+			$mail->smtp_secure = 'tls'; /**/
 			$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 			$mail->Port       = $config['smtp_port'];
 
