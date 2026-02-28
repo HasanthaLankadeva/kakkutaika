@@ -11,22 +11,17 @@ class Mailer
 
 		try {
 			$mail->isSMTP();
-			$mail->Host = $config['host'];
-			$mail->SMTPAuth = true;
-			$mail->Username = $config['username'];
-			$mail->Password = $config['password'];
+			$mail->Host       = $config['smtp_host'];
+			$mail->SMTPAuth   = true;
+			$mail->Username   = $config['smtp_username'];
+			$mail->Password   = $config['smtp_password'];
 			$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-			$mail->Port = $config['port'];
+			$mail->Port       = $config['smtp_port'];
 
 			$mail->setFrom($config['from'], $config['from_name']);
 			$mail->addAddress($to);
 
-			/*foreach ($attachments as $file) {
-				if (file_exists($file)) {
-					$mail->addAttachment(PUBLIC_PATH . '/' . $file);
-				}
-			}*/
-
+			/*foreach ($attachments as $file) { if (file_exists($file)) { $mail->addAttachment(PUBLIC_PATH . '/' . $file); }}*/
 
 			if ($attachments) {
 				$mail->addAttachment(PUBLIC_PATH . '/' . $attachments);
