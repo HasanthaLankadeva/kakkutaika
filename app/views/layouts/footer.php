@@ -91,6 +91,12 @@
     </div>
 </footer>
 
+<!-- CMS Defaults JS -->
+<script src="<?= PUBLIC_URL ?>/assets/js/jquery-3.3.1.min.js"></script>
+<script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<script src="<?= PUBLIC_URL ?>/assets/js/S360-base-v-2.js"></script>
+<script src="<?= PUBLIC_URL ?>/assets/js/auto-load-libs.js"></script>
+
 <script src="<?= PUBLIC_URL ?>/assets/js/component.js" data-position="bottom"></script>
 <script src="<?= PUBLIC_URL ?>/assets/js/libs/aos/aos.js" data-position="bottom"></script>
 <script src="<?= PUBLIC_URL ?>/assets/js/theme.js" data-position="bottom"></script>
