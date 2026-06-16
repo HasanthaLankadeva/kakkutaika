@@ -61,12 +61,6 @@
 	<link rel="stylesheet" href="<?= PUBLIC_URL ?>/assets/css/project/theme-media-1024.css" media="(min-width: 1024px)">
 	<link rel="stylesheet" href="<?= PUBLIC_URL ?>/assets/css/project/theme-media-1366.css" media="(min-width: 1366px)">
 
-	<!-- CMS Defaults JS -->
-	<script src="<?= PUBLIC_URL ?>/assets/js/jquery-3.3.1.min.js"></script>
-	<script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-	<script src="<?= PUBLIC_URL ?>/assets/js/S360-base-v-2.js"></script>
-	<script src="<?= PUBLIC_URL ?>/assets/js/auto-load-libs.js"></script>
-
 	<link rel="stylesheet" href="<?= PUBLIC_URL ?>/assets/js/libs/aos/aos.css" media="(min-width: 1366px)">
 </head>
 <body class="<?= $template . ' ' . $pageClass; ?>">
