@@ -49,7 +49,7 @@
 	<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Leckerli+One&family=Merienda:wght@400;700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
 	<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Leckerli+One&family=Merienda:wght@400;700&display=swap"></noscript>
 	
-	
+	<link rel="preload" href="<?= PUBLIC_URL ?>/assets/css/fonts/icomoon.ttf?rr60uo" as="font" type="font/ttf" crossorigin>
 
 	<!-- load the full file async for the rest of the site -->
 	<link rel="stylesheet" href="<?= PUBLIC_URL ?>/assets/css/core.css?v=1">
