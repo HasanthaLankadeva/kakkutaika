@@ -1,5 +1,5 @@
 
-<div class='row strip-row r2g-main-visual clearfix default-banner-full-height default-slogan-center slogan-position-center'  data-autoplayVideo='false' data-loopVideo='false'  data-autoplay='true' data-autoplaySpeed='4000' data-fade='true' data-pager='true' data-arrows='true' data-speed='600' data-cse_blockid="block-640024e620a42___1677731046" data-cse_class_to_apply=".r2g-main-visual" data-cse_name="Main Visual Strip">
+<div class='row strip-row r2g-main-visual clearfix default-banner-full-height default-slogan-center slogan-position-center' data-autoplayVideo='false' data-loopVideo='false' data-autoplay='true' data-autoplaySpeed='4000' data-fade='true' data-pager='true' data-arrows='true' data-speed='600' data-cse_blockid="block-640024e620a42___1677731046" data-cse_class_to_apply=".r2g-main-visual" data-cse_name="Main Visual Strip">
     <div class="main-visual-default">
         <div style="display: none" data-cse_class_to_apply=" .main-visual-slogan-wrapper" data-cse_name="All Slogan Wrappers"></div>
         <div style="display: none" data-cse_class_to_apply=".r2g-main-visual .container" data-cse_name="Container"></div>

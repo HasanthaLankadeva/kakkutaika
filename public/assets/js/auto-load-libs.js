@@ -48,7 +48,7 @@ function autoLoadLibs() {
         			link.href = filePath;
         			link.rel = 'stylesheet';
 
-				$(link).insertBefore('link[href*="component.css"]');
+				$(link).insertBefore('link[href*="core.css"]');
 				console.log('%c '+ filePath + ' loaded', 'background-color: #27712a; color: #ffffff; font-weight: bold;');
         	} else {
         		console.log('%c '+ filePath + ' already loaded', 'background-color: #FFEB3B; color: #ffffff; font-weight: bold;');
