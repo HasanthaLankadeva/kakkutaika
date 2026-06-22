@@ -16,7 +16,7 @@
         <div class="xbox-wrapper">
             <div class="image-wrapper parent">
                 <picture>
-                    <source media="(min-width: 768px)" srcset="<?= PUBLIC_URL ?>/assets/images/banner-22.jpg" type="image/jpeg" />
+                    <source media="(min-width: 768px)" srcset="<?= PUBLIC_URL ?>/assets/images/paralax_bg.avif" type="image/avif" />
                     <!-- Empty fallback prevents loading on small screens -->
                     <img alt="" aria-hidden="true">
                 </picture>
