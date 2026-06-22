@@ -52,9 +52,8 @@
 	
 
 	<!-- load the full file async for the rest of the site -->
-	<link rel="preload" href="<?= PUBLIC_URL ?>/assets/css/core.css?v=1" as="style">
-
-	<link rel="preload" href="<?= PUBLIC_URL ?>/assets/css/responsive.css?v=1" as="style">
+	<link rel="stylesheet" href="<?= PUBLIC_URL ?>/assets/css/core.css?v=1">
+	<link rel="stylesheet" href="<?= PUBLIC_URL ?>/assets/css/responsive.css?v=1">
 </head>
 <body class="<?= $template . ' ' . $pageClass; ?>">
 
