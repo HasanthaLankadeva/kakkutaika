@@ -5,11 +5,16 @@
         <div style="display: none" data-cse_class_to_apply=".r2g-main-visual .container" data-cse_name="Container"></div>
         <ul class="slider-wrapper list-style-none">
 
-            <?php foreach ($banner as $index=>$item): ?>
+            <?php foreach ($banner as $index=>$item): 
+                $pattern = '/(img\/uploads\/)([^\/]+)\.([a-zA-Z0-9]+)$/';
+                $replacement = '$1mobile/$2_mobile.$3';
+                $mobile_image = preg_replace($pattern, $replacement, $item['attachment']);
+            ?>
                 <li class="slider-item item-<?= $index; ?>" data-video=''>
                     <div class="image-only image-wrapper" data-cse_class_to_apply=" .image-wrapper" data-cse_name="Image Wrapper">
                         <picture>
-                            <img class="" src="<?= BASE_URL . '/admin/' . $item['attachment']; ?>" title="Aerial view of tea plantation land " alt="Aerial view of tea plantation land " >
+                            <source media="(mmax-width:767px)" srcset="<?= BASE_URL . '/admin/' . $mobile_image; ?>">
+                            <img class="" src="<?= BASE_URL . '/admin/' . $item['attachment']; ?>" title="Aerial view of tea plantation land " alt="Aerial view of tea plantation land " fetchpriority="high">
                         </picture>
                     </div>
                     <div class="main-visual-slogan-wrapper" data-cse_class_to_apply=" .item-1 .main-visual-slogan-wrapper" data-cse_name="Item 1 Slogan Wrapper">
