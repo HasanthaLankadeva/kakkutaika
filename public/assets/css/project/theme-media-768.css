@@ -34,7 +34,7 @@
 	width: 400px;
 	height: 400px;
 	margin: auto;
-	background-image: url(../../images/slider_bg_1.png);
+	background-image: url(../images/slider_bg_1.png);
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -65,7 +65,7 @@
 
 [data-blockid="block-content-001"].strip-row{
 	min-height: 40rem;
-    background-image: url(../../images/intro_bg.jpg);
+    background-image: url(../../images/intro_bg.avif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
