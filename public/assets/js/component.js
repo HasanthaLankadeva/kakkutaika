@@ -782,7 +782,7 @@ function responsiveImg() {
     picturefill();
 }
 
-addToAutoLoadLibs(_base_path+'js/libs/glightbox/glightbox.min.js', popUpBox);
+/*addToAutoLoadLibs(_base_path+'js/libs/glightbox/glightbox.min.js', popUpBox);
 addToAutoLoadLibs(_base_path+'js/libs/glightbox/glightbox.min.css');
 
 function popUpBox() {
@@ -826,7 +826,7 @@ jQuery('[data-popup-image]').each(function(){
         loop: true,
         autoplayVideos: true
     });
-}
+}*/
 /** END R2G xBox Sub Component - CSE **/
 
 /** START R2G xBox Main Strip - CSE **/
