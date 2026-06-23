@@ -13,7 +13,7 @@
                 <li class="slider-item item-<?= $index; ?>" data-video=''>
                     <div class="image-only image-wrapper" data-cse_class_to_apply=" .image-wrapper" data-cse_name="Image Wrapper">
                         <picture>
-                            <source media="(mmax-width:767px)" srcset="<?= BASE_URL . '/admin/' . $mobile_image; ?>">
+                            <source media="(max-width:767px)" srcset="<?= BASE_URL . '/admin/' . $mobile_image; ?>">
                             <img class="" src="<?= BASE_URL . '/admin/' . $item['attachment']; ?>" title="Aerial view of tea plantation land " alt="Aerial view of tea plantation land " fetchpriority="high">
                         </picture>
                     </div>
