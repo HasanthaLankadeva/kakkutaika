@@ -96,8 +96,8 @@
 <script src="<?= PUBLIC_URL ?>/assets/js/S360-base-v-2.js"></script>
 <script src="<?= PUBLIC_URL ?>/assets/js/auto-load-libs.js"></script>
 
-<script src="<?= PUBLIC_URL ?>/assets/js/component.js" data-position="bottom"></script>
-<script src="<?= PUBLIC_URL ?>/assets/js/libs/aos/aos.js" data-position="bottom"></script>
-<script src="<?= PUBLIC_URL ?>/assets/js/theme.js" data-position="bottom"></script>
+<script src="<?= PUBLIC_URL ?>/assets/js/component.js" data-position="bottom" defer></script>
+<script src="<?= PUBLIC_URL ?>/assets/js/libs/aos/aos.js" data-position="bottom" defer></script>
+<script src="<?= PUBLIC_URL ?>/assets/js/theme.js" data-position="bottom" defer></script>
 </body>
 </html>
