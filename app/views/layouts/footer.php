@@ -98,6 +98,6 @@
 
 <script src="<?= PUBLIC_URL ?>/assets/js/component.js" data-position="bottom"></script>
 <script src="<?= PUBLIC_URL ?>/assets/js/libs/aos/aos.js" data-position="bottom"></script>
-<script src="<?= PUBLIC_URL ?>/assets/js/theme.js" data-position="bottom" defer></script>
+<script src="<?= PUBLIC_URL ?>/assets/js/theme.js" data-position="bottom"></script>
 </body>
 </html>
