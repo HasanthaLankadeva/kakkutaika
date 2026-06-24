@@ -51,33 +51,10 @@
 	
 	<link rel="preload" href="<?= PUBLIC_URL ?>/assets/css/fonts/icomoon.woff?rr60uo" as="font" type="font/woff" crossorigin>
 
-	<!-- 3) Defer all non-critical CSS -->
-    <?php
-      $cssFiles = [
-        PUBLIC_URL."/assets/css/S360-base-v-9.css",
-        PUBLIC_URL."/assets/css/icomoon_v-8-7_style.css",
-        PUBLIC_URL."/assets/css/S360-theme-editor-default-v-4.css",
-        PUBLIC_URL."/assets/css/variables.css",
-        PUBLIC_URL."/assets/css/component.css",
-        PUBLIC_URL."/assets/css/theme.css",
-        PUBLIC_URL."/assets/css/theme-colors-for-elements.css",
-        PUBLIC_URL."/assets/css/project/theme.css",
-      ];
-      foreach ($cssFiles as $css) {
-        echo '<link rel="preload" as="style" href="'.$css.'" onload="this.onload=null;this.rel=\'stylesheet\'">'."\n";
-        echo '<noscript><link rel="stylesheet" href="'.$css.'"></noscript>'."\n";
-      }
-   ?>
-    <!-- media-specific, still deferred -->
-    <link rel="stylesheet" href="<?= PUBLIC_URL?>/assets/css/component-media-768.css" media="(min-width:768px)" onload="this.media='all'">
-    <link rel="stylesheet" href="<?= PUBLIC_URL?>/assets/css/component-media-1024.css" media="(min-width:1024px)" onload="this.media='all'">
-    <link rel="stylesheet" href="<?= PUBLIC_URL?>/assets/css/component-media-1366.css" media="(min-width:1366px)" onload="this.media='all'">
-    <link rel="stylesheet" href="<?= PUBLIC_URL?>/assets/css/theme-media-768.css" media="(min-width:768px)" onload="this.media='all'">
-    <link rel="stylesheet" href="<?= PUBLIC_URL?>/assets/css/theme-media-1024.css" media="(min-width:1024px)" onload="this.media='all'">
-    <link rel="stylesheet" href="<?= PUBLIC_URL?>/assets/css/theme-media-1366.css" media="(min-width:1366px)" onload="this.media='all'">
-    <link rel="stylesheet" href="<?= PUBLIC_URL?>/assets/css/project/theme-media-768.css" media="(min-width:768px)" onload="this.media='all'">
-    <link rel="stylesheet" href="<?= PUBLIC_URL?>/assets/css/project/theme-media-1024.css" media="(min-width:1024px)" onload="this.media='all'">
-    <link rel="stylesheet" href="<?= PUBLIC_URL?>/assets/css/project/theme-media-1366.css" media="(min-width:1366px)" onload="this.media='all'">
+	<link rel="stylesheet" href="<?= PUBLIC_URL ?>/assets/css/core-styles.css">
+	<link rel="stylesheet" href="<?= PUBLIC_URL ?>/assets/css/main-components.css">
+	<link rel="stylesheet" href="<?= PUBLIC_URL ?>/assets/css/main-theme.css">
+	
 </head>
 <body class="<?= $template . ' ' . $pageClass; ?>">
 
